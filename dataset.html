@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Interactive Ceramics Map</title>
+  <title>Interactive Ceramics Map - Dataset</title>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,9 +18,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet">
 
-  <!-- model-viewer script (NECESSARIO per 3D models) -->
-  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 
@@ -30,7 +27,6 @@
   <link rel="apple-touch-icon" href="assets/icons/website_icon-180.png" sizes="180x180">
 </head>
 <body>
-  <!-- Navbar -->
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #659287;">
     <div class="container">
@@ -52,43 +48,46 @@
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="sparql.html">SPARQL</a></li>
-          <li class="nav-item"><a class="nav-link active" href="3d.html">3D</a></li>
+          <li class="nav-item"><a class="nav-link" href="3d.html">3D</a></li>
           <li class="nav-item"><a class="nav-link active" href="dataset.html">Dataset</a></li>
-          <li class="nav-item"><a class="nav-link active" href="documentation.html">Documentation</a></li>
+          <li class="nav-item"><a class="nav-link" href="documentation.html">Documentation</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-    <!-- Main Content -->
+  <!-- Main Content -->
   <main class="container py-5">
-    <h1 class="text-center mb-5">Interactive 3D Ceramics Models</h1>
-    <div class="row g-4">
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="model-card">
-          <model-viewer src="https://pub-6c60523bdada4079abaecc5d09a63641.r2.dev/lp_10056.glb" alt="Ceramic Model 3" auto-rotate camera-controls crossorigin="anonymous"></model-viewer>
-          <p class="text-center mt-2">Object #lp_10056</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="model-card">
-          <model-viewer src="https://pub-6c60523bdada4079abaecc5d09a63641.r2.dev/10169_513.glb" alt="Ceramic Model 1" auto-rotate camera-controls crossorigin="anonymous"></model-viewer>
-          <p class="text-center mt-2">Object #10169_513</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="model-card">
-          <model-viewer src="https://pub-6c60523bdada4079abaecc5d09a63641.r2.dev/12584.glb" alt="Ceramic Model 2" auto-rotate camera-controls crossorigin="anonymous"></model-viewer>
-          <p class="text-center mt-2">Object #12584</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="model-card">
-          <model-viewer src="https://pub-6c60523bdada4079abaecc5d09a63641.r2.dev/3946a.glb" alt="Ceramic Model 4" auto-rotate camera-controls crossorigin="anonymous"></model-viewer>
-          <p class="text-center mt-2">Object #3946a</p>
-        </div>
-      </div>
-    </div>
+    <h1 class="text-center mb-5">Dataset</h1>
+
+    <!-- Museum Objects Tabular Dataset -->
+    <section id="museum-objects" class="mb-5 text-center">
+      <h2 class="h4 mb-3">Museum Objects Tabular Dataset</h2>
+      <a href="assets/datasets/museum_objects.csv" download class="btn btn-primary">CSV Download</a>
+    </section>
+
+    <!-- Digitisation Process Dataset -->
+    <section id="digitisation-process" class="mb-5 text-center">
+      <h2 class="h4 mb-3">Digitisation Process Dataset</h2>
+      <a href="assets/datasets/digitisation_process.csv" download class="btn btn-primary">CSV Download</a>
+    </section>
+
+    <!-- RDF Complete Dataset -->
+    <section id="rdf-complete" class="mb-5 text-center">
+      <h2 class="h4 mb-3">RDF Complete Dataset</h2>
+      <a href="assets/datasets/complete_dataset.ttl" download class="btn btn-primary">TTL Download</a>
+    </section>
+
+    <!-- Previous Versions -->
+    <section id="previous-versions" class="text-center">
+      <h2 class="h4 mb-3">Previous Versions</h2>
+      <ul class="list-unstyled">
+        <li><a href="____" download class="btn btn-link">Museum Objects v1.0</a></li>
+        <li><a href="____" download class="btn btn-link">Digitisation Process v1.0</a></li>
+        <li><a href="____" download class="btn btn-link">RDF Complete v1.0</a></li>
+      </ul>
+    </section>
+
   </main>
 
   <!-- Footer -->
@@ -99,18 +98,11 @@
   </footer>
 
   <!-- Script Libraries -->
-  <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <!-- Papa Parse -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"
-          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- Leaflet JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
-  <!-- MarkerCluster JS -->
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <!-- Bootstrap Bundle (JS and Popper) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Google Charts loader -->
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
   <!-- Custom JS -->
