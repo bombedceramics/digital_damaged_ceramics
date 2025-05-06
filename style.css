@@ -734,17 +734,52 @@ canvas {
   border: 1px solid #ddd;
   padding: 0.5rem;
   background: #fff;
+  margin-bottom: 1rem; /* Aggiunto spazio sotto la tabella */
+  margin-top: 1rem; /* Aggiunto spazio sotto la tabella */
 }
 
 /* Stili base per la tabella */
 #table-container table {
   width: 100%;
   border-collapse: collapse;
+  font-size: 0.85rem; /* Riduce dimensione del testo */
 }
 
 #table-container th,
 #table-container td {
-  padding: 0.5rem;
+  padding: 0.4rem;
   border: 1px solid #ccc;
-  white-space: nowrap;
+  white-space: normal;       /* Permette il wrap del testo */
+  word-break: break-word;    /* Spezza parole lunghe se necessario */
+  min-width: 150px;          /* Larghezza minima colonna */
+}
+
+#table-container th {
+  font-weight: 600;
+}
+
+/* Colori pastello per 6 colonne alternate, basati sull'immagine */
+#table-container th:nth-child(6n+1),
+#table-container td:nth-child(6n+1) {
+  background-color: #C3D9ED; /* Azzurro tenue */
+}
+#table-container th:nth-child(6n+2),
+#table-container td:nth-child(6n+2) {
+  background-color: #EBC6B0; /* Terracotta soft */
+}
+#table-container th:nth-child(6n+3),
+#table-container td:nth-child(6n+3) {
+  background-color: #E1A298; /* Ruggine chiara */
+}
+#table-container th:nth-child(6n+4),
+#table-container td:nth-child(6n+4) {
+  background-color: #EFE3B0; /* Ocra pallido */
+}
+#table-container th:nth-child(6n+5),
+#table-container td:nth-child(6n+5) {
+  background-color: #F9F3E9; /* Crema sabbia */
+}
+#table-container th:nth-child(6n+6),
+#table-container td:nth-child(6n+6) {
+  background-color: #FDFBF6; /* Bianco caldo */
 }
