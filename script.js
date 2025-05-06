@@ -1028,3 +1028,50 @@ document.addEventListener('DOMContentLoaded', () => {
   const heading = document.querySelector('#home h1');
   if (heading) heading.classList.add('typewriter');
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  Papa.parse('assets/datasets/object/object.csv', {
+    download: true,
+    header: true,
+    skipEmptyLines: true,
+    complete: function(results) {
+      const cols = results.meta.fields;
+      const container = document.getElementById('table-container');
+
+      // Crea l'elemento <table>
+      const table = document.createElement('table');
+      table.classList.add('table', 'table-striped', 'table-hover');
+
+      // Thead
+      const thead = document.createElement('thead');
+      const headerRow = document.createElement('tr');
+      cols.forEach(col => {
+        const th = document.createElement('th');
+        th.textContent = col;
+        headerRow.appendChild(th);
+      });
+      thead.appendChild(headerRow);
+      table.appendChild(thead);
+
+      // Tbody
+      const tbody = document.createElement('tbody');
+      results.data.forEach(row => {
+        const tr = document.createElement('tr');
+        cols.forEach(col => {
+          const td = document.createElement('td');
+          td.textContent = row[col] || '';
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody);
+
+      // Inserisci la tabella nel container
+      container.appendChild(table);
+    },
+    error: function(err) {
+      console.error('Errore nel caricamento CSV:', err);
+    }
+  });
+});

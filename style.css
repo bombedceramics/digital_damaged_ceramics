@@ -726,3 +726,25 @@ canvas {
       height: 300px;
       border-radius: 4px;
     }
+
+/* Container scrollabile per la tabella */
+#table-container {
+  max-height: 600px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  background: #fff;
+}
+
+/* Stili base per la tabella */
+#table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table-container th,
+#table-container td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  white-space: nowrap;
+}
