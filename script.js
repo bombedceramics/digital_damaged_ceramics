@@ -1099,3 +1099,97 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   }
 });
+
+
+/**
+ * Fetches JSON file and displays it pretty-printed and syntax-highlighted using Highlight.js
+ * @param {string} url - Path to the JSON file
+ * @param {string} codeElementId - ID of the <code> element
+ */
+async function renderJsonHighlighted(url, codeElementId) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`HTTP ${response.status} - ${response.statusText}`);
+    const jsonData = await response.json();
+    const pretty = JSON.stringify(jsonData, null, 2);
+    const codeEl = document.getElementById(codeElementId);
+    codeEl.textContent = pretty;
+    // Trigger Highlight.js on the newly inserted content
+    if (window.hljs) {
+      hljs.highlightElement(codeEl);
+    }
+  } catch (err) {
+    console.error('Error loading JSON:', err);
+    document.getElementById(codeElementId).textContent = 'Failed to load JSON data.';
+  }
+}
+
+// Initialize highlighted JSON viewers on page load
+window.addEventListener('DOMContentLoaded', () => {
+  renderJsonHighlighted('assets/datasets/documentation/obj_ita_eng_conv.json', 'obj-json-mapping');
+  renderJsonHighlighted('assets/datasets/documentation/pro_ita_eng_conv.json', 'pro-json-mapping');
+});
+
+
+// quando il DOM è pronto, carica e visualizza entrambi i CSV
+document.addEventListener('DOMContentLoaded', () => {
+  // helper generico identico a quello di Museum Objects
+  function renderCsvSection(csvPath, containerId) {
+    Papa.parse(csvPath, {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      complete: results => {
+        const cols = results.meta.fields;
+        const data = results.data;
+        const container = document.getElementById(containerId);
+
+        // crea la table
+        const table = document.createElement('table');
+        table.classList.add('table', 'table-striped', 'table-hover');
+
+        // thead
+        const thead = document.createElement('thead');
+        const headRow = document.createElement('tr');
+        cols.forEach(c => {
+          const th = document.createElement('th');
+          th.textContent = c;
+          headRow.appendChild(th);
+        });
+        thead.appendChild(headRow);
+        table.appendChild(thead);
+
+        // tbody
+        const tbody = document.createElement('tbody');
+        data.forEach(row => {
+          const tr = document.createElement('tr');
+          cols.forEach(c => {
+            const td = document.createElement('td');
+            td.textContent = row[c] || '';
+            tr.appendChild(td);
+          });
+          tbody.appendChild(tr);
+        });
+        table.appendChild(tbody);
+
+        // inserisci la table nel container
+        container.appendChild(table);
+      },
+      error: err => {
+        console.error('Errore caricamento CSV', err);
+        document.getElementById(containerId)
+                .innerHTML = '<p class="text-danger">Impossibile caricare i dati.</p>';
+      }
+    });
+  }
+
+  // chiama per entrambi i template
+  renderCsvSection(
+    'assets/datasets/documentation/template_obj.csv',
+    'table-container-obj'
+  );
+  renderCsvSection(
+    'assets/datasets/documentation/template_pro.csv',
+    'table-container-pro'
+  );
+});

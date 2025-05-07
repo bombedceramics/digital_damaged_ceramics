@@ -20,6 +20,10 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css"
+  />
 
   <!-- Icon e Favicon -->
   <link rel="icon" href="assets/icons/website_icon.ico" type="image/x-icon">
@@ -106,13 +110,30 @@
 
       <h3 class="h4 mb-3">Cultural Heritage Object Dataset</h3>
       <div id="table-container-obj" class="table-responsive mx-auto"></div>
-      <a href="assets/datasets/object/object.csv" download class="btn btn-primary mb-3">CSV Download</a>
+      <a href="assets/datasets/documentation/template_obj.csv"
+         download
+         class="btn btn-primary mb-3">CSV Download</a>
 
       <h3 class="h4 mb-3">Digitisation Process Paradata Dataset</h3>
       <div id="table-container-pro" class="table-responsive mx-auto"></div>
-      <a href="assets/datasets/object/object.csv" download class="btn btn-primary mb-3">CSV Download</a>
-
+      <a href="assets/datasets/documentation/template_pro.csv"
+         download
+         class="btn btn-primary mb-3">CSV Download</a>
     </section>
+
+    <!-- JSON Mapping Containers with Syntax Highlighting -->
+    <div id="mapping-json" class="mb-5 text-center">
+      <h2 class="h4 mb-3">CHANGES Field Names Mapping</h2>
+
+      <h3 class="h4 mb-3">Cultural Heritage Object Dataset</h3>
+      <!-- Highlight.js styled pre/code -->
+      <pre><code id="obj-json-mapping" class="language-json" style="background:#282c34; padding:1em; overflow:auto; max-height:400px; display:block;"></code></pre>
+      <a id="obj-json-download" href="assets/datasets/documentation/obj_ita_eng_conv.json" download class="btn btn-primary mb-3">JSON Download</a>
+
+      <h3 class="h4 mb-3">Digitisation Process Paradata Dataset</h3>
+      <pre><code id="pro-json-mapping" class="language-json" style="background:#282c34; padding:1em; overflow:auto; max-height:400px; display:block;"></code></pre>
+      <a id="pro-json-download" href="assets/datasets/documentation/pro_ita_eng_conv.json" download class="btn btn-primary mb-3">JSON Download</a>
+    </div>
 
 
 
@@ -136,5 +157,8 @@
 
   <!-- Custom JS -->
   <script src="script.js" defer></script>
+  <!-- footer.html o template equivalente -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </body>
 </html>
