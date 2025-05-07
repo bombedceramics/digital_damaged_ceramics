@@ -1075,3 +1075,27 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+
+// rdf viewer
+
+document.addEventListener('DOMContentLoaded', () => {
+  const viewer = document.getElementById('rdf-viewer');
+
+  if (viewer) {
+    fetch('assets/datasets/rdf/knowledge-graph_obj_corretto.ttl')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.text();
+      })
+      .then(data => {
+        viewer.textContent = data;
+      })
+      .catch(error => {
+        viewer.textContent = 'Error loading RDF content: ' + error;
+        console.error('Error fetching RDF:', error);
+      });
+  }
+});
