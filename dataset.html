@@ -19,7 +19,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_global.css">
+  <link rel="stylesheet" href="navbar_footer.css" />
 
   <!-- Icon e Favicon -->
   <link rel="icon" href="assets/icons/website_icon.ico" type="image/x-icon">
@@ -38,6 +39,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="collectionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Collections
@@ -47,9 +49,21 @@
               <li><a class="dropdown-item" href="mic.html">MIC - International Museum of Ceramics in Faenza</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="sparql.html">SPARQL</a></li>
-          <li class="nav-item"><a class="nav-link" href="3d.html">3D</a></li>
-          <li class="nav-item"><a class="nav-link active" href="dataset.html">Dataset</a></li>
+
+          <!-- NEW: More dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="moreDropdown">
+              <li><a class="dropdown-item" href="sparql.html">SPARQL</a></li>
+              <li><a class="dropdown-item" href="3d.html">3D</a></li>
+              <li><a class="dropdown-item active" href="dataset.html">Dataset</a></li>
+              <li><a class="dropdown-item" href="chem.html">Chemical Analyses</a></li>
+            </ul>
+          </li>
+
           <li class="nav-item"><a class="nav-link" href="documentation.html">Documentation</a></li>
         </ul>
       </div>

@@ -1,0 +1,35 @@
+/* === Navbar & Footer only (safe to include on every page) === */
+
+/* Load the navbar font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* Navbar */
+.navbar {
+  background-color: #4793AF !important;
+}
+
+/* Force the same font across the whole navbar scope */
+.navbar,
+.navbar * {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-weight: 700;
+  color: #FFF !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #DD5746 !important;
+}
+
+/* Footer */
+footer {
+  background-color: #4793AF;
+  color: #FFFFFF;
+}
+
+.footer p {
+  margin: 0;
+}
