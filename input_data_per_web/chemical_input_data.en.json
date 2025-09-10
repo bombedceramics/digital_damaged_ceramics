@@ -1,0 +1,3951 @@
+{
+  "194.2 (Chini salt-glazed stoneware) 20th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "picture": "assets/chem/194_2_na.jpg",
+        "label": "black tip",
+        "C K": {
+          "Weight%": 2.8,
+          "Sigma": 2.3,
+          "Atomic%": 4.8
+        },
+        "Na K": {
+          "Weight%": 2.1,
+          "Sigma": 0.2,
+          "Atomic%": 1.8
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.3,
+          "Atomic%": 0.3
+        },
+        "Al K": {
+          "Weight%": 6.9,
+          "Sigma": 0.2,
+          "Atomic%": 5.3
+        },
+        "Si K": {
+          "Weight%": 30.1,
+          "Sigma": 0.8,
+          "Atomic%": 22.1
+        },
+        "K K": {
+          "Weight%": 3.2,
+          "Sigma": 0.2,
+          "Atomic%": 1.7
+        },
+        "Ca K": {
+          "Weight%": 0.9,
+          "Sigma": 0.1,
+          "Atomic%": 0.5
+        },
+        "Cr K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Fe K": {
+          "Weight%": 1.1,
+          "Sigma": 0.2,
+          "Atomic%": 0.4
+        },
+        "Co K": {
+          "Weight%": 20.2,
+          "Sigma": null,
+          "Atomic%": 0.7
+        },
+        "Pb M": {
+          "Weight%": 20.3,
+          "Sigma": null,
+          "Atomic%": 0.2
+        }
+      },
+      "altered": {
+        "label": "black tip",
+        "picture": "assets/chem/194_2_a.jpg",
+        "O K": {
+          "Weight%": 49,
+          "Sigma": 0.7,
+          "Atomic%": 65
+        },
+        "Na K": {
+          "Weight%": 1,
+          "Sigma": 0.2,
+          "Atomic%": 0.9
+        },
+        "Mg K": {
+          "Weight%": 0.8,
+          "Sigma": 0.1,
+          "Atomic%": 0.7
+        },
+        "Al K": {
+          "Weight%": 7.9,
+          "Sigma": 0.2,
+          "Atomic%": 6.2
+        },
+        "Si K": {
+          "Weight%": 29.7,
+          "Sigma": 0.4,
+          "Atomic%": 22.4
+        },
+        "K K": {
+          "Weight%": 3.8,
+          "Sigma": 0.2,
+          "Atomic%": 2.1
+        },
+        "Ca K": {
+          "Weight%": 1,
+          "Sigma": 0.1,
+          "Atomic%": 0.5
+        },
+        "Cr K": {
+          "Weight%": 0.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Ti K": {
+          "Weight%": 0,
+          "Sigma": 0,
+          "Atomic%": 0
+        },
+        "Fe K": {
+          "Weight%": 1.5,
+          "Sigma": 0.2,
+          "Atomic%": 0.6
+        },
+        "Co K": {
+          "Weight%": 2.3,
+          "Sigma": 0.2,
+          "Atomic%": 0.8
+        },
+        "Zn K": {
+          "Weight%": 0.8,
+          "Sigma": 0.3,
+          "Atomic%": 0.3
+        },
+        "Pb M": {
+          "Weight%": 1.6,
+          "Sigma": 0.4,
+          "Atomic%": 0.2
+        }
+      }
+    },
+    "spot / point (Pt) 2": {
+      "unaltered": {
+        "label": "black leaf",
+        "picture": "assets/chem/194_2_na.jpg",
+        "O K": {
+          "Weight%": 49,
+          "Sigma": 0.9,
+          "Atomic%": 64.7
+        },
+        "Na K": {
+          "Weight%": 2.1,
+          "Sigma": 0.2,
+          "Atomic%": 1.9
+        },
+        "Al K": {
+          "Weight%": 7.3,
+          "Sigma": 0.3,
+          "Atomic%": 5.7
+        },
+        "Si K": {
+          "Weight%": 31,
+          "Sigma": 0.6,
+          "Atomic%": 23.3
+        },
+        "K K": {
+          "Weight%": 3.4,
+          "Sigma": 0.2,
+          "Atomic%": 1.8
+        },
+        "Ca K": {
+          "Weight%": 1.7,
+          "Sigma": 0.2,
+          "Atomic%": 0.9
+        },
+        "Cr K": {
+          "Weight%": 0.5,
+          "Sigma": 0.2,
+          "Atomic%": 0.2
+        },
+        "Fe K": {
+          "Weight%": 1.1,
+          "Sigma": 0.2,
+          "Atomic%": 0.4
+        },
+        "Co K": {
+          "Weight%": 2.5,
+          "Sigma": 0.3,
+          "Atomic%": 0.9
+        },
+        "Pb M": {
+          "Weight%": 1.5,
+          "Sigma": 0.5,
+          "Atomic%": 0.2
+        }
+      }
+    },
+    "spot / point (Pt) 2b": {
+      "unaltered": {
+        "label": "blackened white",
+        "picture": "assets/chem/194_2_na.jpg",
+        "C K": {
+          "Weight%": 2.5,
+          "Sigma": 2.3,
+          "Atomic%": 4.3
+        },
+        "O K": {
+          "Weight%": 50.6,
+          "Sigma": 1.3,
+          "Atomic%": 64.4
+        },
+        "Na K": {
+          "Weight%": 1,
+          "Sigma": 0.13,
+          "Atomic%": 0.9
+        },
+        "Mg K": {
+          "Weight%": 1.7,
+          "Sigma": 0.1,
+          "Atomic%": 1.5
+        },
+        "Al K": {
+          "Weight%": 8.5,
+          "Sigma": 0.2,
+          "Atomic%": 6.4
+        },
+        "Si K": {
+          "Weight%": 26.4,
+          "Sigma": 0.7,
+          "Atomic%": 19.1
+        },
+        "K K": {
+          "Weight%": 3.4,
+          "Sigma": 0.1,
+          "Atomic%": 1.7
+        },
+        "Ca K": {
+          "Weight%": 0.7,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Cr K": {
+          "Weight%": 0,
+          "Sigma": 0,
+          "Atomic%": 0
+        },
+        "Ti K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Fe K": {
+          "Weight%": 1.7,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Co K": {
+          "Weight%": 0.7,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Zn K": {
+          "Weight%": 0.6,
+          "Sigma": 0.2,
+          "Atomic%": 0.2
+        },
+        "Pb M": {
+          "Weight%": 1.9,
+          "Sigma": 0.2,
+          "Atomic%": 0.2
+        }
+      }
+    },
+    "spot / point (Pt) 3": {
+      "unaltered": {
+        "label": "white",
+        "picture": "assets/chem/194_2_na.jpg",
+        "O K": {
+          "Weight%": 48,
+          "Sigma": 0.7,
+          "Atomic%": 64.5
+        },
+        "Na K": {
+          "Weight%": 1.5,
+          "Sigma": 0.2,
+          "Atomic%": 1.2
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Al K": {
+          "Weight%": 6.6,
+          "Sigma": 0.2,
+          "Atomic%": 5.2
+        },
+        "Si K": {
+          "Weight%": 31,
+          "Sigma": 0.5,
+          "Atomic%": 23.6
+        },
+        "K K": {
+          "Weight%": 3.4,
+          "Sigma": 0.2,
+          "Atomic%": 1.9
+        },
+        "Ca K": {
+          "Weight%": 0.7,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Cr K": {
+          "Weight%": 0.7,
+          "Sigma": 0.2,
+          "Atomic%": 0.4
+        },
+        "Fe K": {
+          "Weight%": 1,
+          "Sigma": 0.2,
+          "Atomic%": 0.4
+        },
+        "Co K": {
+          "Weight%": 3.7,
+          "Sigma": 0.3,
+          "Atomic%": 1.3
+        },
+        "Zn K": {
+          "Weight%": 0.8,
+          "Sigma": 0.3,
+          "Atomic%": 0.3
+        },
+        "Pb M": {
+          "Weight%": 1.6,
+          "Sigma": 0.4,
+          "Atomic%": 0.2
+        }
+      }
+    }
+  },
+  "1539.2 (glazed terracotta), Japan, 20th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "yellow-brown",
+        "picture": "assets/chem/1539_2_na.jpg",
+        "C K": {
+          "Weight%": 16.9,
+          "Sigma": 1.3,
+          "Atomic%": 25.1
+        },
+        "O K": {
+          "Weight%": 41.9,
+          "Sigma": 0.8,
+          "Atomic%": 49.4
+        },
+        "Na K": {
+          "Weight%": 1.7,
+          "Sigma": 0.1,
+          "Atomic%": 1.4
+        },
+        "Mg K": {
+          "Weight%": 0.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.5
+        },
+        "Al K": {
+          "Weight%": 5.0,
+          "Sigma": 0.1,
+          "Atomic%": 3.5
+        },
+        "Si K": {
+          "Weight%": 23.9,
+          "Sigma": 0.4,
+          "Atomic%": 16.1
+        },
+        "P K": {
+          "Weight%": 0.2,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "S K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Cl K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 3.0,
+          "Sigma": 0.1,
+          "Atomic%": 1.4
+        },
+        "Ca K": {
+          "Weight%": 4.2,
+          "Sigma": 0.1,
+          "Atomic%": 2.0
+        },
+        "Mn K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Ti K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Fe K": {
+          "Weight%": 0.7,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Pb M": {
+          "Weight%": 1.3,
+          "Sigma": 0.2,
+          "Atomic%": 0.1
+        },
+        "Np M": {
+          "Weight%": 0.2,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        }
+      },
+      "altered": {
+        "label": "yellow-grey",
+        "picture": "assets/chem/1539_2_a.jpg",
+        "C K": {
+          "Weight%": 3.1,
+          "Sigma": 1.5,
+          "Atomic%": 5.4
+        },
+        "O K": {
+          "Weight%": 42.8,
+          "Sigma": 1.1,
+          "Atomic%": 59.9
+        },
+        "Na K": {
+          "Weight%": 0.9,
+          "Sigma": 0.1,
+          "Atomic%": 0.8
+        },
+        "Mg K": {
+          "Weight%": 1.1,
+          "Sigma": 0.1,
+          "Atomic%": 1.0
+        },
+        "Al K": {
+          "Weight%": 3.5,
+          "Sigma": 0.2,
+          "Atomic%": 2.8
+        },
+        "Si K": {
+          "Weight%": 21.7,
+          "Sigma": 0.5,
+          "Atomic%": 17.3
+        },
+        "P K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "K K": {
+          "Weight%": 1.8,
+          "Sigma": 0.1,
+          "Atomic%": 1.0
+        },
+        "Ca K": {
+          "Weight%": 14.9,
+          "Sigma": 0.4,
+          "Atomic%": 8.5
+        },
+        "Mn K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Fe K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Zn K": {
+          "Weight%": 7.5,
+          "Sigma": 0.4,
+          "Atomic%": 2.7
+        },
+        "Sn L": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Pb M": {
+          "Weight%": 2.1,
+          "Sigma": 0.2,
+          "Atomic%": 0.2
+        }
+      }
+    }
+  },
+  "1604.2 (Japanese porcelain) 19th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "white",
+        "picture": "assets/chem/1604_2_na.jpg",
+        "C K": {
+          "Weight%": 4.9,
+          "Sigma": 3.0,
+          "Atomic%": 8.6
+        },
+        "O K": {
+          "Weight%": 44.7,
+          "Sigma": 1.5,
+          "Atomic%": 59.2
+        },
+        "Na K": {
+          "Weight%": 1.0,
+          "Sigma": 0.1,
+          "Atomic%": 0.9
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Al K": {
+          "Weight%": 4.1,
+          "Sigma": 0.2,
+          "Atomic%": 3.2
+        },
+        "Si K": {
+          "Weight%": 27.2,
+          "Sigma": 1.0,
+          "Atomic%": 20.5
+        },
+        "Cl K": {
+          "Weight%": 0.1,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 7.7,
+          "Sigma": 0.3,
+          "Atomic%": 4.2
+        },
+        "Ca K": {
+          "Weight%": 3.9,
+          "Sigma": 0.2,
+          "Atomic%": 2.1
+        },
+        "Ti K": {
+          "Weight%": 0.1,
+          "Sigma": 0.1,
+          "Atomic%": 0.04
+        },
+        "Fe K": {
+          "Weight%": 1.0,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Pb M": {
+          "Weight%": 4.8,
+          "Sigma": 0.3,
+          "Atomic%": 0.5
+        }
+      },
+      "altered": {
+        "label": "white turned black",
+        "picture": "assets/chem/1604_2_a.jpg",
+        "C K": {
+          "Weight%": 4.3,
+          "Sigma": 1.12,
+          "Atomic%": 8.31
+        },
+        "O K": {
+          "Weight%": 40.06,
+          "Sigma": 0.61,
+          "Atomic%": 58.07
+        },
+        "Na K": {
+          "Weight%": 0.97,
+          "Sigma": 0.1,
+          "Atomic%": 0.98
+        },
+        "Mg K": {
+          "Weight%": 0.49,
+          "Sigma": 0.06,
+          "Atomic%": 0.47
+        },
+        "Al K": {
+          "Weight%": 3.66,
+          "Sigma": 0.09,
+          "Atomic%": 3.15
+        },
+        "Si K": {
+          "Weight%": 21.88,
+          "Sigma": 0.32,
+          "Atomic%": 18.07
+        },
+        "Cl K": {
+          "Weight%": 0.15,
+          "Sigma": 0.06,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 8.42,
+          "Sigma": 0.15,
+          "Atomic%": 5.0
+        },
+        "Ca K": {
+          "Weight%": 6.69,
+          "Sigma": 0.14,
+          "Atomic%": 3.87
+        },
+        "Fe K": {
+          "Weight%": 1.31,
+          "Sigma": 0.1,
+          "Atomic%": 0.54
+        },
+        "Zn K": {
+          "Weight%": 0.43,
+          "Sigma": 0.14,
+          "Atomic%": 0.15
+        },
+        "Pb M": {
+          "Weight%": 11.64,
+          "Sigma": 0.31,
+          "Atomic%": 1.3
+        }
+      }
+    },
+    "spot / point (Pt) 2": {
+      "unaltered": {
+        "label": "brown line",
+        "picture": "assets/chem/1604_2_na.jpg",
+        "C K": {
+          "Weight%": 15.7,
+          "Sigma": 0.1,
+          "Atomic%": 28.8
+        },
+        "O K": {
+          "Weight%": 34.2,
+          "Sigma": 0.5,
+          "Atomic%": 46.9
+        },
+        "Na K": {
+          "Weight%": 0.1,
+          "Sigma": 0.02,
+          "Atomic%": 0.1
+        },
+        "Mg K": {
+          "Weight%": 0.3,
+          "Sigma": 0.04,
+          "Atomic%": 0.3
+        },
+        "Al K": {
+          "Weight%": 1.5,
+          "Sigma": 0.05,
+          "Atomic%": 1.3
+        },
+        "Si K": {
+          "Weight%": 15.6,
+          "Sigma": 0.2,
+          "Atomic%": 12.2
+        },
+        "S K": {
+          "Weight%": 0.5,
+          "Sigma": 0.8,
+          "Atomic%": 0.4
+        },
+        "Cl K": {
+          "Weight%": 0.3,
+          "Sigma": 0.04,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 5.0,
+          "Sigma": 0.09,
+          "Atomic%": 2.8
+        },
+        "Ca K": {
+          "Weight%": 1.7,
+          "Sigma": 0.06,
+          "Atomic%": 0.9
+        },
+        "Fe K": {
+          "Weight%": 10.9,
+          "Sigma": 0.2,
+          "Atomic%": 4.2
+        },
+        "Zn K": {
+          "Weight%": 1.0,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Au L": {
+          "Weight%": 3.5,
+          "Sigma": 0.3,
+          "Atomic%": 0.4
+        },
+        "Pb M": {
+          "Weight%": 9.5,
+          "Sigma": 0.3,
+          "Atomic%": 1.0
+        }
+      },
+      "altered": {
+        "label": "brown line",
+        "picture": "assets/chem/1604_2_a.jpg",
+        "C K": {
+          "Weight%": 7.86,
+          "Atomic%": 15.33
+        },
+        "O K": {
+          "Weight%": 36.68,
+          "Atomic%": 53.72
+        },
+        "Na K": {
+          "Weight%": 0.64,
+          "Atomic%": 0.66
+        },
+        "Mg K": {
+          "Weight%": 0.28,
+          "Atomic%": 0.27
+        },
+        "Al K": {
+          "Weight%": 1.31,
+          "Atomic%": 1.13
+        },
+        "Si K": {
+          "Weight%": 14.29,
+          "Atomic%": 11.92
+        },
+        "S K": {
+          "Weight%": 0.18,
+          "Atomic%": 0.13
+        },
+        "K K": {
+          "Weight%": 6.58,
+          "Atomic%": 3.95
+        },
+        "Ca K": {
+          "Weight%": 4.25,
+          "Atomic%": 2.49
+        },
+        "Fe K": {
+          "Weight%": 23.07,
+          "Atomic%": 9.68
+        },
+        "Cu K": {
+          "Weight%": 0.29,
+          "Atomic%": 0.11
+        },
+        "Zn K": {
+          "Weight%": 0.38,
+          "Atomic%": 0.13
+        },
+        "Pb M": {
+          "Weight%": 4.18,
+          "Atomic%": 0.47
+        }
+      }
+    },
+    "spot / point (Pt) 3": {
+      "unaltered": {
+        "label": "gilded area",
+        "picture": "assets/chem/1604_2_na.jpg",
+        "C K": {
+          "Weight%": 14.04,
+          "Sigma": 0.96,
+          "Atomic%": 39.17
+        },
+        "O K": {
+          "Weight%": 18.58,
+          "Sigma": 0.43,
+          "Atomic%": 38.91
+        },
+        "Na K": {
+          "Weight%": 0.43,
+          "Sigma": 0.07,
+          "Atomic%": 0.62
+        },
+        "Mg K": {
+          "Weight%": 0.16,
+          "Sigma": 0.05,
+          "Atomic%": 0.22
+        },
+        "Al K": {
+          "Weight%": 0.75,
+          "Sigma": 0.05,
+          "Atomic%": 0.93
+        },
+        "Si K": {
+          "Weight%": 5.49,
+          "Sigma": 0.12,
+          "Atomic%": 6.55
+        },
+        "Cl K": {
+          "Weight%": 0.4,
+          "Sigma": 0.06,
+          "Atomic%": 0.38
+        },
+        "K K": {
+          "Weight%": 2.0,
+          "Sigma": 0.08,
+          "Atomic%": 1.71
+        },
+        "Ca K": {
+          "Weight%": 0.96,
+          "Sigma": 0.06,
+          "Atomic%": 0.75
+        },
+        "Fe K": {
+          "Weight%": 2.5,
+          "Sigma": 0.11,
+          "Atomic%": 1.5
+        },
+        "Au L": {
+          "Weight%": 42.67,
+          "Sigma": 0.79,
+          "Atomic%": 7.26
+        },
+        "Pb M": {
+          "Weight%": 12.03,
+          "Sigma": 0.4,
+          "Atomic%": 1.95
+        }
+      },
+      "altered": {
+        "label": "gilded area",
+        "picture": "assets/chem/1604_2_a.jpg",
+        "C K": {
+          "Weight%": 7.8,
+          "Sigma": 1.2,
+          "Atomic%": 15.5
+        },
+        "O K": {
+          "Weight%": 35.8,
+          "Sigma": 0.6,
+          "Atomic%": 54.8
+        },
+        "Na K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Mg K": {
+          "Weight%": 0.2,
+          "Sigma": 0.05,
+          "Atomic%": 0.2
+        },
+        "Al K": {
+          "Weight%": 0.7,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Si K": {
+          "Weight%": 5.5,
+          "Sigma": 0.3,
+          "Atomic%": 16.3
+        },
+        "Cl K": {
+          "Weight%": 0.1,
+          "Sigma": 0.04,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 6.4,
+          "Sigma": 0.1,
+          "Atomic%": 3.9
+        },
+        "Ca K": {
+          "Weight%": 7.1,
+          "Sigma": 0.15,
+          "Atomic%": 12.2
+        },
+        "Fe K": {
+          "Weight%": 3.1,
+          "Sigma": 0.1,
+          "Atomic%": 1.3
+        },
+        "Zn K": {
+          "Weight%": 0.5,
+          "Sigma": 0.15,
+          "Atomic%": 0.2
+        },
+        "Au L": {
+          "Weight%": 7.2,
+          "Sigma": 0.6,
+          "Atomic%": 0.9
+        },
+        "Pb M": {
+          "Weight%": 8.8,
+          "Sigma": 0.3,
+          "Atomic%": 1.0
+        }
+      }
+    }
+  },
+  "5723.1 (siliceous faience) 1550–1286 BC": {
+    "spot / point (Pt) 1-2": {
+      "unaltered": {
+        "label": "red-brown",
+        "picture": "assets/chem/5723_1_na.jpg",
+        "C K": {
+          "Weight%": 16.8,
+          "Sigma": 1.9,
+          "Atomic%": 25.7
+        },
+        "O K": {
+          "Weight%": 44.8,
+          "Sigma": 1.1,
+          "Atomic%": 51.9
+        },
+        "Na K": {
+          "Weight%": 0.9,
+          "Sigma": 0.1,
+          "Atomic%": 0.8
+        },
+        "Mg K": {
+          "Weight%": 0.7,
+          "Sigma": 0.1,
+          "Atomic%": 0.5
+        },
+        "Al K": {
+          "Weight%": 0.3,
+          "Sigma": 0.0,
+          "Atomic%": 0.2
+        },
+        "Si K": {
+          "Weight%": 27.9,
+          "Sigma": 0.7,
+          "Atomic%": 18.4
+        },
+        "S K": {
+          "Weight%": 0.2,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "Cl K": {
+          "Weight%": 0.2,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Ca K": {
+          "Weight%": 2.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.0
+        },
+        "Fe K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Cu K": {
+          "Weight%": 2.1,
+          "Sigma": 0.2,
+          "Atomic%": 0.6
+        },
+        "Sn L": {
+          "Weight%": 1.4,
+          "Sigma": 0.0,
+          "Atomic%": 0.2
+        },
+        "Pb M": {
+          "Weight%": 1.7,
+          "Sigma": 0.2,
+          "Atomic%": 0.2
+        }
+      }
+    },
+    "spot / point (Pt) 1": {
+      "altered": {
+        "label": "red-black",
+        "picture": "assets/chem/5723_1_a.jpg",
+        "C K": {
+          "Weight%": 10.9,
+          "Sigma": 1.7,
+          "Atomic%": 17.6
+        },
+        "O K": {
+          "Weight%": 44.9,
+          "Sigma": 0.9,
+          "Atomic%": 55.4
+        },
+        "Na K": {
+          "Weight%": 1.5,
+          "Sigma": 0.1,
+          "Atomic%": 1.3
+        },
+        "Mg K": {
+          "Weight%": 0.9,
+          "Sigma": 0.1,
+          "Atomic%": 0.8
+        },
+        "Al K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Si K": {
+          "Weight%": 27.6,
+          "Sigma": 0.6,
+          "Atomic%": 19.4
+        },
+        "P K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "S K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Cl K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "K K": {
+          "Weight%": 2.3,
+          "Sigma": 0.1,
+          "Atomic%": 1.2
+        },
+        "Ca K": {
+          "Weight%": 3.5,
+          "Sigma": 0.1,
+          "Atomic%": 1.7
+        },
+        "Mn K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Fe K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Cu K": {
+          "Weight%": 5.2,
+          "Sigma": 0.2,
+          "Atomic%": 1.6
+        },
+        "Pb M": {
+          "Weight%": 1.7,
+          "Sigma": 0.2,
+          "Atomic%": 0.2
+        }
+      }
+    }
+  },
+  "SN Alberghi (creamware) 19th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "white",
+        "picture": "assets/chem/sn_alberghi_na.jpg",
+        "C K": {
+          "Weight%": 10.3,
+          "Sigma": 1.9,
+          "Atomic%": 19.9
+        },
+        "O K": {
+          "Weight%": 36.1,
+          "Sigma": 1.0,
+          "Atomic%": 52.6
+        },
+        "Na K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Mg K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Al K": {
+          "Weight%": 2.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.9
+        },
+        "Si K": {
+          "Weight%": 20.5,
+          "Sigma": 0.5,
+          "Atomic%": 17.0
+        },
+        "Cl K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 7.1,
+          "Sigma": 0.2,
+          "Atomic%": 4.2
+        },
+        "Ca K": {
+          "Weight%": 1.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.9
+        },
+        "Fe K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Pb M": {
+          "Weight%": 20.9,
+          "Sigma": 0.7,
+          "Atomic%": 2.4
+        }
+      },
+      "altered": {
+        "label": "white turned black",
+        "picture": "assets/chem/sn_alberghi_a.jpg",
+        "C K": {
+          "Weight%": 5.5,
+          "Sigma": 1.5,
+          "Atomic%": 12.1
+        },
+        "O K": {
+          "Weight%": 34.1,
+          "Sigma": 0.8,
+          "Atomic%": 57.9
+        },
+        "Na K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Mg K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Al K": {
+          "Weight%": 2.0,
+          "Sigma": 0.1,
+          "Atomic%": 2.0
+        },
+        "Si K": {
+          "Weight%": 17.6,
+          "Sigma": 0.4,
+          "Atomic%": 17.1
+        },
+        "Cl K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "K K": {
+          "Weight%": 5.8,
+          "Sigma": 0.2,
+          "Atomic%": 4.1
+        },
+        "Ca K": {
+          "Weight%": 2.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.4
+        },
+        "Fe K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Pb M": {
+          "Weight%": 31.4,
+          "Sigma": 0.7,
+          "Atomic%": 4.3
+        }
+      }
+    }
+  },
+  "382.1 (engobed faience) 17th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "white",
+        "picture": "assets/chem/343_1_na.jpg",
+        "C K": {
+          "Weight%": 10.0,
+          "Sigma": 1.8,
+          "Atomic%": 18.9
+        },
+        "O K": {
+          "Weight%": 41.8,
+          "Sigma": 1.0,
+          "Atomic%": 59.4
+        },
+        "Na K": {
+          "Weight%": 1.4,
+          "Sigma": 0.1,
+          "Atomic%": 1.3
+        },
+        "Al K": {
+          "Weight%": 1.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.0
+        },
+        "Si K": {
+          "Weight%": 17.4,
+          "Sigma": 0.4,
+          "Atomic%": 14.1
+        },
+        "Cl K": {
+          "Weight%": 0.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "K K": {
+          "Weight%": 3.0,
+          "Sigma": 0.1,
+          "Atomic%": 1.7
+        },
+        "Ca K": {
+          "Weight%": 1.0,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Pb M": {
+          "Weight%": 23.7,
+          "Sigma": 0.6,
+          "Atomic%": 2.6
+        }
+      },
+      "altered": {
+        "label": "white turned black",
+        "picture": "assets/chem/343_1_a.jpg",
+        "C K": {
+          "Weight%": 6.2,
+          "Sigma": 2.2,
+          "Atomic%": 12.3
+        },
+        "O K": {
+          "Weight%": 38.2,
+          "Sigma": 1.1,
+          "Atomic%": 57.4
+        },
+        "Na K": {
+          "Weight%": 2.6,
+          "Sigma": 0.2,
+          "Atomic%": 2.7
+        },
+        "Mg K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "Al K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 1.2
+        },
+        "Si K": {
+          "Weight%": 21.1,
+          "Sigma": 0.6,
+          "Atomic%": 18.1
+        },
+        "Cl K": {
+          "Weight%": 0.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "K K": {
+          "Weight%": 6.2,
+          "Sigma": 0.2,
+          "Atomic%": 3.8
+        },
+        "Ca K": {
+          "Weight%": 2.1,
+          "Sigma": 0.2,
+          "Atomic%": 1.3
+        },
+        "Fe K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Pb M": {
+          "Weight%": 21.5,
+          "Sigma": 0.8,
+          "Atomic%": 2.6
+        }
+      }
+    }
+  },
+  "382.1 decorated (engobed faience) 17th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "blue",
+        "picture": "assets/chem/343_1_d_na.jpg",
+        "C K": {
+          "Weight%": 7.6,
+          "Sigma": 0.9,
+          "Atomic%": 12.0
+        },
+        "O K": {
+          "Weight%": 37.2,
+          "Sigma": 0.6,
+          "Atomic%": 57.1
+        },
+        "Na K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 1.4
+        },
+        "Mg K": {
+          "Weight%": 0.7,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Al K": {
+          "Weight%": 4.0,
+          "Sigma": 0.2,
+          "Atomic%": 3.4
+        },
+        "Si K": {
+          "Weight%": 21.5,
+          "Sigma": 0.4,
+          "Atomic%": 18.7
+        },
+        "S K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Cl K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 4.7,
+          "Sigma": 0.2,
+          "Atomic%": 2.9
+        },
+        "Ca K": {
+          "Weight%": 1.6,
+          "Sigma": 0.1,
+          "Atomic%": 1.0
+        },
+        "Mn K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Fe K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Co K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Pb M": {
+          "Weight%": 20.2,
+          "Sigma": 0.6,
+          "Atomic%": 2.4
+        }
+      },
+      "altered": {
+        "label": "blue",
+        "picture": "assets/chem/343_1_d_a.jpg",
+        "C K": {
+          "Weight%": 5.2,
+          "Sigma": 1.7,
+          "Atomic%": 10.1
+        },
+        "O K": {
+          "Weight%": 41.1,
+          "Sigma": 0.9,
+          "Atomic%": 61.4
+        },
+        "Na K": {
+          "Weight%": 2.6,
+          "Sigma": 0.2,
+          "Atomic%": 2.7
+        },
+        "Mg K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "Al K": {
+          "Weight%": 1.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Si K": {
+          "Weight%": 20.8,
+          "Sigma": 0.5,
+          "Atomic%": 17.7
+        },
+        "Cl K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 4.0,
+          "Sigma": 0.1,
+          "Atomic%": 2.5
+        },
+        "Ca K": {
+          "Weight%": 1.8,
+          "Sigma": 0.1,
+          "Atomic%": 1.0
+        },
+        "Fe K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Zn K": {
+          "Weight%": 1.8,
+          "Sigma": 0.2,
+          "Atomic%": 0.7
+        },
+        "Pb M": {
+          "Weight%": 20.9,
+          "Sigma": 0.6,
+          "Atomic%": 2.4
+        }
+      }
+    },
+    "spot / point (Pt) 2": {
+      "unaltered": {
+        "label": "white",
+        "picture": "assets/chem/343_1_d_na.jpg",
+        "C K": {
+          "Weight%": 8.1,
+          "Sigma": 1.6,
+          "Atomic%": 15.6
+        },
+        "O K": {
+          "Weight%": 38.5,
+          "Sigma": 0.9,
+          "Atomic%": 56.4
+        },
+        "Na K": {
+          "Weight%": 1.4,
+          "Sigma": 0.1,
+          "Atomic%": 1.5
+        },
+        "Mg K": {
+          "Weight%": 0.3,
+          "Sigma": 0.0,
+          "Atomic%": 0.2
+        },
+        "Al K": {
+          "Weight%": 1.0,
+          "Sigma": 0.1,
+          "Atomic%": 0.9
+        },
+        "Si K": {
+          "Weight%": 22.4,
+          "Sigma": 0.5,
+          "Atomic%": 18.8
+        },
+        "Cl K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "P K": {
+          "Weight%": 0.3,
+          "Sigma": 0.0,
+          "Atomic%": 0.2
+        },
+        "S K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 3.6,
+          "Sigma": 0.1,
+          "Atomic%": 2.2
+        },
+        "Ca K": {
+          "Weight%": 3.0,
+          "Sigma": 0.1,
+          "Atomic%": 1.7
+        },
+        "Fe K": {
+          "Weight%": 0.2,
+          "Sigma": 0.0,
+          "Atomic%": 0.2
+        },
+        "Zn K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Pb M": {
+          "Weight%": 20.8,
+          "Sigma": 0.6,
+          "Atomic%": 2.4
+        }
+      },
+      "altered": {
+        "label": "blue under the break",
+        "picture": "assets/chem/343_1_d_a.jpg",
+        "C K": {
+          "Weight%": 5.9,
+          "Sigma": 1.6,
+          "Atomic%": 12.2
+        },
+        "O K": {
+          "Weight%": 37.7,
+          "Sigma": 0.8,
+          "Atomic%": 59.0
+        },
+        "Na K": {
+          "Weight%": 1.6,
+          "Sigma": 0.2,
+          "Atomic%": 1.7
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Al K": {
+          "Weight%": 1.6,
+          "Sigma": 0.1,
+          "Atomic%": 1.4
+        },
+        "Si K": {
+          "Weight%": 19.0,
+          "Sigma": 0.4,
+          "Atomic%": 16.9
+        },
+        "Cl K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 3.8,
+          "Sigma": 0.1,
+          "Atomic%": 2.4
+        },
+        "Ca K": {
+          "Weight%": 2.4,
+          "Sigma": 0.1,
+          "Atomic%": 1.5
+        },
+        "Mn K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Fe K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Co K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Zn K": {
+          "Weight%": 1.4,
+          "Sigma": 0.2,
+          "Atomic%": 0.5
+        },
+        "Pb M": {
+          "Weight%": 24.4,
+          "Sigma": 0.6,
+          "Atomic%": 2.9
+        }
+      }
+    },
+    "spot / point (Pt) 3": {
+      "altered": {
+        "label": "white turned black",
+        "picture": "assets/chem/343_1_d_a.jpg",
+        "C K": {
+          "Weight%": 13.9,
+          "Sigma": 1.7,
+          "Atomic%": 22.7
+        },
+        "O K": {
+          "Weight%": 36.6,
+          "Sigma": 0.6,
+          "Atomic%": 50.9
+        },
+        "Mg K": {
+          "Weight%": 0.3,
+          "Sigma": 0.0,
+          "Atomic%": 0.3
+        },
+        "Al K": {
+          "Weight%": 2.0,
+          "Sigma": 0.2,
+          "Atomic%": 1.7
+        },
+        "Si K": {
+          "Weight%": 20.9,
+          "Sigma": 0.6,
+          "Atomic%": 17.0
+        },
+        "S K": {
+          "Weight%": 0.2,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "Cl K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 4.3,
+          "Sigma": 0.2,
+          "Atomic%": 2.5
+        },
+        "Ca K": {
+          "Weight%": 2.8,
+          "Sigma": 0.2,
+          "Atomic%": 1.5
+        },
+        "Fe K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Zn K": {
+          "Weight%": 4.0,
+          "Sigma": 0.5,
+          "Atomic%": 1.4
+        },
+        "Pb M": {
+          "Weight%": 14.4,
+          "Sigma": 0.7,
+          "Atomic%": 1.6
+        }
+      }
+    }
+  },
+  "669.1 (engobed and sgraffito faience) 15th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "green tip",
+        "picture": "assets/chem/669_1_na.jpg",
+        "C K": {
+          "Weight%": 6.1,
+          "Sigma": 1.3,
+          "Atomic%": 12.3
+        },
+        "O K": {
+          "Weight%": 31.7,
+          "Sigma": 0.6,
+          "Atomic%": 58.8
+        },
+        "Na K": {
+          "Weight%": 51.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.7
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.5
+        },
+        "Al K": {
+          "Weight%": 1.8,
+          "Sigma": 0.1,
+          "Atomic%": 2.0
+        },
+        "Si K": {
+          "Weight%": 15.6,
+          "Sigma": 0.3,
+          "Atomic%": 16.6
+        },
+        "Cl K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "K K": {
+          "Weight%": 1.4,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Ca K": {
+          "Weight%": 1.0,
+          "Sigma": 0.1,
+          "Atomic%": 0.7
+        },
+        "Fe K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Cu K": {
+          "Weight%": 2.5,
+          "Sigma": 0.2,
+          "Atomic%": 1.2
+        },
+        "Pb M": {
+          "Weight%": 39.3,
+          "Sigma": 0.7,
+          "Atomic%": 5.7
+        }
+      },
+      "altered": {
+        "label": "flower",
+        "picture": "assets/chem/669_1_a.jpg",
+        "C K": {
+          "Weight%": 8.5,
+          "Sigma": 2.2,
+          "Atomic%": 22.6
+        },
+        "O K": {
+          "Weight%": 25.0,
+          "Sigma": 1.2,
+          "Atomic%": 51.9
+        },
+        "Al K": {
+          "Weight%": 1.2,
+          "Sigma": 0.2,
+          "Atomic%": 1.5
+        },
+        "Si K": {
+          "Weight%": 9.2,
+          "Sigma": 0.4,
+          "Atomic%": 11.1
+        },
+        "S K": {
+          "Weight%": 2.3,
+          "Sigma": 0.4,
+          "Atomic%": 2.4
+        },
+        "Cl K": {
+          "Weight%": 1.1,
+          "Sigma": 0.3,
+          "Atomic%": 1.0
+        },
+        "K K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Fe K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Cu K": {
+          "Weight%": 1.2,
+          "Sigma": 0.4,
+          "Atomic%": 0.6
+        },
+        "Pb M": {
+          "Weight%": 50.5,
+          "Sigma": 1.6,
+          "Atomic%": 8.2
+        },
+        "Ca K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        }
+      }
+    },
+    "spot / point (Pt) 2": {
+      "unaltered": {
+        "label": "yellow flower",
+        "picture": "assets/chem/669_1_na.jpg",
+        "C K": {
+          "Weight%": 0.7,
+          "Sigma": 1.6,
+          "Atomic%": 2.1
+        },
+        "O K": {
+          "Weight%": 36.6,
+          "Sigma": 0.8,
+          "Atomic%": 64.5
+        },
+        "Mg K": {
+          "Weight%": 8.7,
+          "Sigma": 0.2,
+          "Atomic%": 9.5
+        },
+        "Al K": {
+          "Weight%": 2.5,
+          "Sigma": 0.1,
+          "Atomic%": 2.6
+        },
+        "Si K": {
+          "Weight%": 14.1,
+          "Sigma": 0.3,
+          "Atomic%": 14.3
+        },
+        "Cl K": {
+          "Weight%": 0.2,
+          "Sigma": 0.0,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 0.8,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Ca K": {
+          "Weight%": 0.8,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Fe K": {
+          "Weight%": 1.1,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Cu K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Pb M": {
+          "Weight%": 18.2,
+          "Sigma": 0.5,
+          "Atomic%": 2.3
+        }
+      },
+      "altered": {
+        "label": "black edge",
+        "picture": "assets/chem/669_1_a.jpg",
+        "C K": {
+          "Weight%": 9.3,
+          "Sigma": 2.0,
+          "Atomic%": 20.9
+        },
+        "O K": {
+          "Weight%": 31.7,
+          "Sigma": 0.9,
+          "Atomic%": 54.9
+        },
+        "Al K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 1.4
+        },
+        "Si K": {
+          "Weight%": 10.3,
+          "Sigma": 0.3,
+          "Atomic%": 10.1
+        },
+        "S K": {
+          "Weight%": 4.1,
+          "Sigma": 0.3,
+          "Atomic%": 3.6
+        },
+        "K K": {
+          "Weight%": 2.1,
+          "Sigma": 0.1,
+          "Atomic%": 1.6
+        },
+        "Ca K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.9
+        },
+        "Fe K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Cu K": {
+          "Weight%": 3.5,
+          "Sigma": 0.3,
+          "Atomic%": 1.5
+        },
+        "Pb M": {
+          "Weight%": 35.7,
+          "Sigma": 1.0,
+          "Atomic%": 4.8
+        },
+        "Cl K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Mg K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        }
+      }
+    },
+    "spot / point (Pt) 3": {
+      "unaltered": {
+        "label": "brown engraving",
+        "picture": "assets/chem/669_1_na.jpg",
+        "C K": {
+          "Weight%": 4.0,
+          "Sigma": 2.9,
+          "Atomic%": 10.4
+        },
+        "O K": {
+          "Weight%": 30.4,
+          "Sigma": 1.3,
+          "Atomic%": 59.7
+        },
+        "Mg K": {
+          "Weight%": 0.5,
+          "Sigma": 0.2,
+          "Atomic%": 0.7
+        },
+        "Al K": {
+          "Weight%": 2.2,
+          "Sigma": 0.2,
+          "Atomic%": 2.5
+        },
+        "Si K": {
+          "Weight%": 14.3,
+          "Sigma": 0.6,
+          "Atomic%": 16.0
+        },
+        "K K": {
+          "Weight%": 0.9,
+          "Sigma": 0.2,
+          "Atomic%": 0.7
+        },
+        "Ca K": {
+          "Weight%": 1.5,
+          "Sigma": 0.2,
+          "Atomic%": 1.2
+        },
+        "Fe K": {
+          "Weight%": 0.7,
+          "Sigma": 0.3,
+          "Atomic%": 0.4
+        },
+        "Cu K": {
+          "Weight%": 4.3,
+          "Sigma": 0.5,
+          "Atomic%": 2.1
+        },
+        "Pb M": {
+          "Weight%": 41.1,
+          "Sigma": 1.6,
+          "Atomic%": 6.2
+        }
+      }
+    },
+    "spot / point (Pt) 4": {
+      "unaltered": {
+        "label": "brown engraving",
+        "picture": "assets/chem/669_1_na.jpg",
+        "C K": {
+          "Weight%": 4.9,
+          "Sigma": 3.0,
+          "Atomic%": 12.2
+        },
+        "O K": {
+          "Weight%": 32.2,
+          "Sigma": 1.5,
+          "Atomic%": 61.8
+        },
+        "Na K": {
+          "Weight%": 1.5,
+          "Sigma": 0.2,
+          "Atomic%": 0.7
+        },
+        "Si K": {
+          "Weight%": 13.7,
+          "Sigma": 0.6,
+          "Atomic%": 15.0
+        },
+        "K K": {
+          "Weight%": 1.0,
+          "Sigma": 0.2,
+          "Atomic%": 0.8
+        },
+        "Ca K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 1.0
+        },
+        "Fe K": {
+          "Weight%": 0.7,
+          "Sigma": 0.3,
+          "Atomic%": 0.4
+        },
+        "Cu K": {
+          "Weight%": 1.2,
+          "Sigma": 0.4,
+          "Atomic%": 0.6
+        },
+        "Pb M": {
+          "Weight%": 43.6,
+          "Sigma": 1.7,
+          "Atomic%": 6.5
+        }
+      }
+    }
+  },
+  "3460.1–3500.1 (maiolica) 18th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "linea blu",
+        "picture": "assets/chem/3460_1_3500_1_na.jpg",
+        "C K": {
+          "Weight%": 4.0,
+          "Sigma": 0.9,
+          "Atomic%": 7.7
+        },
+        "O K": {
+          "Weight%": 43.3,
+          "Sigma": 0.8,
+          "Atomic%": 62.2
+        },
+        "Na K": {
+          "Weight%": 1.4,
+          "Sigma": 0.1,
+          "Atomic%": 1.4
+        },
+        "Mg K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Al K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Si K": {
+          "Weight%": 20.9,
+          "Sigma": 0.4,
+          "Atomic%": 17.4
+        },
+        "S K": {
+          "Weight%": 1.5,
+          "Sigma": 0.0,
+          "Atomic%": 1.0
+        },
+        "Cl K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 1.5,
+          "Sigma": 0.1,
+          "Atomic%": 2.6
+        },
+        "Ca K": {
+          "Weight%": 0.8,
+          "Sigma": 0.2,
+          "Atomic%": 3.8
+        },
+        "Ti K": {
+          "Weight%": 0.2,
+          "Sigma": 0.2,
+          "Atomic%": 0.2
+        },
+        "Fe K": {
+          "Weight%": 0.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.0
+        },
+        "Sn L": {
+          "Weight%": 1.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.0
+        },
+        "Pb M": {
+          "Weight%": 14.1,
+          "Sigma": 0.6,
+          "Atomic%": 1.6
+        }
+      },
+      "altered": {
+        "label": "blu annerito",
+        "picture": "assets/chem/3460_1_3500_1_a.jpg",
+        "C K": {
+          "Weight%": 9.4,
+          "Sigma": 1.7,
+          "Atomic%": 18.0
+        },
+        "O K": {
+          "Weight%": 36.7,
+          "Sigma": 0.9,
+          "Atomic%": 53.1
+        },
+        "Na K": {
+          "Weight%": 1.6,
+          "Sigma": 0.1,
+          "Atomic%": 1.6
+        },
+        "Al K": {
+          "Weight%": 1.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Si K": {
+          "Weight%": 24.0,
+          "Sigma": 0.5,
+          "Atomic%": 19.8
+        },
+        "Cl K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 4.2,
+          "Sigma": 0.1,
+          "Atomic%": 2.5
+        },
+        "Ca K": {
+          "Weight%": 1.7,
+          "Sigma": 0.1,
+          "Atomic%": 1.0
+        },
+        "Mn K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Fe K": {
+          "Weight%": 0.8,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Co K": {
+          "Weight%": 0.7,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Pb M": {
+          "Weight%": 19.2,
+          "Sigma": 0.6,
+          "Atomic%": 2.1
+        }
+      }
+    },
+    "spot / point (Pt) 2": {
+      "unaltered": {
+        "label": "blue corner",
+        "picture": "assets/chem/3460_1_3500_1_na.jpg",
+        "C K": {
+          "Weight%": 4.5,
+          "Sigma": 1.3,
+          "Atomic%": 8.5
+        },
+        "O K": {
+          "Weight%": 43.4,
+          "Sigma": 1.0,
+          "Atomic%": 61.3
+        },
+        "Na K": {
+          "Weight%": 1.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Al K": {
+          "Weight%": 1.1,
+          "Sigma": 0.1,
+          "Atomic%": 0.9
+        },
+        "Si K": {
+          "Weight%": 22.4,
+          "Sigma": 0.5,
+          "Atomic%": 18.0
+        },
+        "S K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "Cl K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 2.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Ca K": {
+          "Weight%": 3.8,
+          "Sigma": 0.2,
+          "Atomic%": 2.2
+        },
+        "Ti K": {
+          "Weight%": 0.2,
+          "Sigma": 0.2,
+          "Atomic%": 0.2
+        },
+        "Fe K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Co K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Sn L": {
+          "Weight%": 3.3,
+          "Sigma": 0.3,
+          "Atomic%": 0.6
+        },
+        "Pb M": {
+          "Weight%": 16.7,
+          "Sigma": 0.5,
+          "Atomic%": 1.9
+        }
+      },
+      "altered": {
+        "label": "white turned black",
+        "picture": "assets/chem/3460_1_3500_1_a.jpg",
+        "C K": {
+          "Weight%": 4.8,
+          "Sigma": 1.4,
+          "Atomic%": 9.0
+        },
+        "O K": {
+          "Weight%": 43.9,
+          "Sigma": 0.8,
+          "Atomic%": 62.3
+        },
+        "Na K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 1.3
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Al K": {
+          "Weight%": 1.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.0
+        },
+        "Si K": {
+          "Weight%": 22.3,
+          "Sigma": 0.4,
+          "Atomic%": 18.3
+        },
+        "P K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "S K": {
+          "Weight%": 2.1,
+          "Sigma": 0.1,
+          "Atomic%": 1.4
+        },
+        "Cl K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 3.7,
+          "Sigma": 0.1,
+          "Atomic%": 2.2
+        },
+        "Ca K": {
+          "Weight%": 4.0,
+          "Sigma": 0.1,
+          "Atomic%": 2.2
+        },
+        "Fe K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Pb M": {
+          "Weight%": 15.9,
+          "Sigma": 0.5,
+          "Atomic%": 1.8
+        }
+      }
+    },
+    "spot / point (Pt) 3": {
+      "unaltered": {
+        "label": "fiore blu",
+        "picture": "assets/chem/3460_1_3500_1_na.jpg",
+        "C K": {
+          "Weight%": 3.9,
+          "Sigma": 1.3,
+          "Atomic%": 7.4
+        },
+        "O K": {
+          "Weight%": 42.4,
+          "Sigma": 0.9,
+          "Atomic%": 62.0
+        },
+        "Na K": {
+          "Weight%": 2.0,
+          "Sigma": 0.1,
+          "Atomic%": 2.1
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Al K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Si K": {
+          "Weight%": 25.0,
+          "Sigma": 0.5,
+          "Atomic%": 20.8
+        },
+        "Cl K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 4.0,
+          "Sigma": 0.2,
+          "Atomic%": 2.4
+        },
+        "Ca K": {
+          "Weight%": 1.8,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Fe K": {
+          "Weight%": 0.8,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Sn L": {
+          "Weight%": 1.6,
+          "Sigma": 0.2,
+          "Atomic%": 0.3
+        },
+        "Co K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Pb M": {
+          "Weight%": 16.2,
+          "Sigma": 0.5,
+          "Atomic%": 1.8
+        }
+      }
+    },
+    "spot / point (Pt) 4": {
+      "unaltered": {
+        "label": "white bubble",
+        "picture": "assets/chem/3460_1_3500_1_na.jpg",
+        "C K": {
+          "Weight%": 12.7,
+          "Sigma": 2.4,
+          "Atomic%": 23.9
+        },
+        "O K": {
+          "Weight%": 36.6,
+          "Sigma": 1.2,
+          "Atomic%": 51.6
+        },
+        "Na K": {
+          "Weight%": 1.0,
+          "Sigma": 0.2,
+          "Atomic%": 1.6
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Al K": {
+          "Weight%": 1.1,
+          "Sigma": 0.1,
+          "Atomic%": 0.9
+        },
+        "Si K": {
+          "Weight%": 19.4,
+          "Sigma": 0.4,
+          "Atomic%": 15.6
+        },
+        "Cl K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 2.8,
+          "Sigma": 0.1,
+          "Atomic%": 2.2
+        },
+        "Ca K": {
+          "Weight%": 2.2,
+          "Sigma": 0.2,
+          "Atomic%": 1.2
+        },
+        "Fe K": {
+          "Weight%": 0.8,
+          "Sigma": 0.2,
+          "Atomic%": 0.4
+        },
+        "Sn L": {
+          "Weight%": 3.3,
+          "Sigma": 0.3,
+          "Atomic%": 0.5
+        },
+        "Pb M": {
+          "Weight%": 18.9,
+          "Sigma": 0.8,
+          "Atomic%": 2.6
+        }
+      }
+    },
+    "spot / point (Pt) 5": {
+      "unaltered": {
+        "label": "white corner",
+        "picture": "assets/chem/3460_1_3500_1_na.jpg",
+        "C K": {
+          "Weight%": 2.2,
+          "Sigma": 1.3,
+          "Atomic%": 4.5
+        },
+        "O K": {
+          "Weight%": 42.1,
+          "Sigma": 0.8,
+          "Atomic%": 63.5
+        },
+        "Na K": {
+          "Weight%": 2.0,
+          "Sigma": 0.1,
+          "Atomic%": 2.1
+        },
+        "Mg K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.5
+        },
+        "Al K": {
+          "Weight%": 1.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Si K": {
+          "Weight%": 25.0,
+          "Sigma": 0.5,
+          "Atomic%": 21.5
+        },
+        "Cl K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 3.0,
+          "Sigma": 0.1,
+          "Atomic%": 2.2
+        },
+        "Ca K": {
+          "Weight%": 3.3,
+          "Sigma": 0.2,
+          "Atomic%": 1.0
+        },
+        "Fe K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Sn L": {
+          "Weight%": 3.3,
+          "Sigma": 0.3,
+          "Atomic%": 0.5
+        },
+        "Pb M": {
+          "Weight%": 16.7,
+          "Sigma": 0.5,
+          "Atomic%": 1.9
+        }
+      }
+    }
+  },
+  "1185.2 (Ginori maiolica) 20th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "yellow",
+        "picture": "assets/chem/1185_2_na.jpg",
+        "O K": {
+          "Weight%": 30.7,
+          "Sigma": 0.6,
+          "Atomic%": 66.5
+        },
+        "Na K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Al K": {
+          "Weight%": 1.9,
+          "Sigma": 0.1,
+          "Atomic%": 2.4
+        },
+        "Si K": {
+          "Weight%": 13.8,
+          "Sigma": 0.2,
+          "Atomic%": 17.0
+        },
+        "Cl K": {
+          "Weight%": 0.2,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 1.6,
+          "Sigma": 0.1,
+          "Atomic%": 1.4
+        },
+        "Ca K": {
+          "Weight%": 2.7,
+          "Sigma": 0.1,
+          "Atomic%": 2.3
+        },
+        "Ti K": {
+          "Weight%": 1.5,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Cd L": {
+          "Weight%": 1.7,
+          "Sigma": 0.3,
+          "Atomic%": 0.5
+        },
+        "Sb L": {
+          "Weight%": 3.8,
+          "Sigma": 0.4,
+          "Atomic%": 1.1
+        },
+        "Pb M": {
+          "Weight%": 42.0,
+          "Sigma": 0.5,
+          "Atomic%": 7.0
+        }
+      },
+      "altered": {
+        "label": "yellow turned black",
+        "picture": "assets/chem/1185_2_a.jpg",
+        "C K": {
+          "Weight%": 1.6,
+          "Sigma": 0.5,
+          "Atomic%": 4.0
+        },
+        "O K": {
+          "Weight%": 28.1,
+          "Sigma": 0.7,
+          "Atomic%": 64.6
+        },
+        "Na K": {
+          "Weight%": 1.0,
+          "Sigma": 0.1,
+          "Atomic%": 1.7
+        },
+        "Al K": {
+          "Weight%": 1.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.7
+        },
+        "Si K": {
+          "Weight%": 13.6,
+          "Sigma": 0.2,
+          "Atomic%": 13.2
+        },
+        "Cl K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "K K": {
+          "Weight%": 2.4,
+          "Sigma": 0.1,
+          "Atomic%": 2.3
+        },
+        "Ca K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Ti K": {
+          "Weight%": 2.1,
+          "Sigma": 0.5,
+          "Atomic%": 1.7
+        },
+        "Cd L": {
+          "Weight%": 2.5,
+          "Sigma": 0.3,
+          "Atomic%": 0.9
+        },
+        "Sb L": {
+          "Weight%": 1.1,
+          "Sigma": 0.3,
+          "Atomic%": 0.3
+        },
+        "Pb M": {
+          "Weight%": 49.3,
+          "Sigma": 0.7,
+          "Atomic%": 8.9
+        }
+      }
+    }
+  },
+  "2857.2 (white stoneware) 20th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "red",
+        "picture": "assets/chem/2857_2_na.jpg",
+        "N K": {
+          "Weight%": 7.0,
+          "Sigma": 0.9,
+          "Atomic%": 10.7
+        },
+        "O K": {
+          "Weight%": 37.9,
+          "Sigma": 2.1,
+          "Atomic%": 59.5
+        },
+        "Na K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Al K": {
+          "Weight%": 2.8,
+          "Sigma": 0.4,
+          "Atomic%": 2.6
+        },
+        "Si K": {
+          "Weight%": 19.1,
+          "Sigma": 1.0,
+          "Atomic%": 17.5
+        },
+        "S K": {
+          "Weight%": 1.7,
+          "Sigma": 0.4,
+          "Atomic%": 1.4
+        },
+        "K K": {
+          "Weight%": 1.6,
+          "Sigma": 0.4,
+          "Atomic%": 1.1
+        },
+        "Ca K": {
+          "Weight%": 1.5,
+          "Sigma": 0.4,
+          "Atomic%": 1.0
+        },
+        "Fe K": {
+          "Weight%": 2.1,
+          "Sigma": 0.6,
+          "Atomic%": 1.0
+        },
+        "Cu K": {
+          "Weight%": 1.0,
+          "Sigma": 0.4,
+          "Atomic%": 0.4
+        },
+        "Sn L": {
+          "Weight%": 1.0,
+          "Sigma": 0.2,
+          "Atomic%": 0.2
+        },
+        "Ba L": {
+          "Weight%": 21.6,
+          "Sigma": 1.4,
+          "Atomic%": 4.0
+        },
+        "Pb M": {
+          "Weight%": 2.3,
+          "Sigma": 1.4,
+          "Atomic%": 0.3
+        }
+      },
+      "altered": {
+        "label": "white",
+        "picture": "assets/chem/2857_2_a.jpg",
+        "C K": {
+          "Weight%": 12.4,
+          "Sigma": 2.3,
+          "Atomic%": 24.6
+        },
+        "O K": {
+          "Weight%": 30.7,
+          "Sigma": 1.0,
+          "Atomic%": 46.1
+        },
+        "Na K": {
+          "Weight%": 0.2,
+          "Sigma": 0.03,
+          "Atomic%": 0.4
+        },
+        "Mg K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Al K": {
+          "Weight%": 3.1,
+          "Sigma": 0.2,
+          "Atomic%": 2.8
+        },
+        "Si K": {
+          "Weight%": 14.4,
+          "Sigma": 0.5,
+          "Atomic%": 12.4
+        },
+        "S K": {
+          "Weight%": 4.0,
+          "Sigma": 0.2,
+          "Atomic%": 3.1
+        },
+        "K K": {
+          "Weight%": 4.7,
+          "Sigma": 0.2,
+          "Atomic%": 2.9
+        },
+        "Ca K": {
+          "Weight%": 4.6,
+          "Sigma": 0.2,
+          "Atomic%": 2.8
+        },
+        "Fe K": {
+          "Weight%": 1.5,
+          "Sigma": 0.2,
+          "Atomic%": 0.7
+        },
+        "Cu K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Sn L": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Zn L": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Ba L": {
+          "Weight%": 21.4,
+          "Sigma": 0.8,
+          "Atomic%": 3.7
+        },
+        "Pb M": {
+          "Weight%": 2.0,
+          "Sigma": 0.4,
+          "Atomic%": 0.2
+        }
+      }
+    },
+    "spot / point (Pt) 2": {
+      "unaltered": {
+        "label": "white",
+        "picture": "assets/chem/2857_2_na.jpg",
+        "C K": {
+          "Weight%": 5.5,
+          "Sigma": 1.4,
+          "Atomic%": 10.7
+        },
+        "O K": {
+          "Weight%": 40.6,
+          "Sigma": 0.7,
+          "Atomic%": 60.6
+        },
+        "Na K": {
+          "Weight%": 1.0,
+          "Sigma": 0.1,
+          "Atomic%": 1.0
+        },
+        "Mg K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Al K": {
+          "Weight%": 3.1,
+          "Sigma": 0.1,
+          "Atomic%": 2.7
+        },
+        "Si K": {
+          "Weight%": 19.4,
+          "Sigma": 0.3,
+          "Atomic%": 16.5
+        },
+        "S K": {
+          "Weight%": 1.7,
+          "Sigma": 0.1,
+          "Atomic%": 1.3
+        },
+        "Cl K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "K K": {
+          "Weight%": 2.9,
+          "Sigma": 0.1,
+          "Atomic%": 1.8
+        },
+        "Ca K": {
+          "Weight%": 0.9,
+          "Sigma": 0.1,
+          "Atomic%": 0.5
+        },
+        "Fe K": {
+          "Weight%": 1.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Cu K": {
+          "Weight%": 0.9,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Sn L": {
+          "Weight%": 1.5,
+          "Sigma": 0.2,
+          "Atomic%": 0.3
+        },
+        "Ba L": {
+          "Weight%": 14.8,
+          "Sigma": 0.3,
+          "Atomic%": 2.6
+        },
+        "Pb M": {
+          "Weight%": 6.0,
+          "Sigma": 0.3,
+          "Atomic%": 0.7
+        }
+      },
+      "altered": {
+        "label": "red-black",
+        "picture": "assets/chem/2857_2_a.jpg",
+        "C K": {
+          "Weight%": 5.6,
+          "Sigma": 3.6,
+          "Atomic%": 11.7
+        },
+        "O K": {
+          "Weight%": 35.0,
+          "Sigma": 0.9,
+          "Atomic%": 58.7
+        },
+        "Na K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Mg K": {
+          "Weight%": 0.7,
+          "Sigma": 0.1,
+          "Atomic%": 0.7
+        },
+        "Al K": {
+          "Weight%": 2.3,
+          "Sigma": 0.2,
+          "Atomic%": 1.9
+        },
+        "Si K": {
+          "Weight%": 10.5,
+          "Sigma": 0.3,
+          "Atomic%": 9.2
+        },
+        "S K": {
+          "Weight%": 7.1,
+          "Sigma": 0.2,
+          "Atomic%": 6.8
+        },
+        "K K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.8
+        },
+        "Ca K": {
+          "Weight%": 3.1,
+          "Sigma": 0.2,
+          "Atomic%": 0.2
+        },
+        "Fe K": {
+          "Weight%": 0.7,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Cu K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Sn L": {
+          "Weight%": 0.2,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Ba L": {
+          "Weight%": 21.9,
+          "Sigma": 0.9,
+          "Atomic%": 7.0
+        },
+        "Pb M": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.0
+        }
+      }
+    }
+  },
+  "4611.1 (maiolica) 18th century": {
+    "spot / point (Pt) 1-2": {
+      "unaltered": {
+        "label": "light-blue band",
+        "picture": "assets/chem/4611_na.jpg",
+        "C K": {
+          "Weight%": 0.4,
+          "Sigma": 0.2,
+          "Atomic%": 0.8
+        },
+        "O K": {
+          "Weight%": 45.7,
+          "Sigma": 1.0,
+          "Atomic%": 72.8
+        },
+        "Na K": {
+          "Weight%": 0.8,
+          "Sigma": 0.1,
+          "Atomic%": 0.9
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Al K": {
+          "Weight%": 2.0,
+          "Sigma": 0.2,
+          "Atomic%": 1.9
+        },
+        "Si K": {
+          "Weight%": 18.9,
+          "Sigma": 0.5,
+          "Atomic%": 17.1
+        },
+        "Cl K": {
+          "Weight%": 0.0,
+          "Sigma": 0.5,
+          "Atomic%": 0.0
+        },
+        "K K": {
+          "Weight%": 2.1,
+          "Sigma": 0.3,
+          "Atomic%": 1.4
+        },
+        "Ca K": {
+          "Weight%": 0.7,
+          "Sigma": 0.2,
+          "Atomic%": 0.4
+        },
+        "Fe K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "Co K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Sn L": {
+          "Weight%": 7.4,
+          "Sigma": 0.7,
+          "Atomic%": 1.3
+        },
+        "Pb M": {
+          "Weight%": 21.5,
+          "Sigma": 0.8,
+          "Atomic%": 2.6
+        }
+      }
+    },
+    "spot / point (Pt) 3": {
+      "unaltered": {
+        "label": "white",
+        "picture": "assets/chem/4611_na.jpg",
+        "O K": {
+          "Weight%": 41.6,
+          "Sigma": 0.7,
+          "Atomic%": 68.4
+        },
+        "Na K": {
+          "Weight%": 1.8,
+          "Sigma": 0.2,
+          "Atomic%": 2.1
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Al K": {
+          "Weight%": 1.9,
+          "Sigma": 0.1,
+          "Atomic%": 1.9
+        },
+        "Si K": {
+          "Weight%": 21.0,
+          "Sigma": 0.4,
+          "Atomic%": 19.6
+        },
+        "K K": {
+          "Weight%": 4.0,
+          "Sigma": 0.2,
+          "Atomic%": 2.7
+        },
+        "Ca K": {
+          "Weight%": 1.0,
+          "Sigma": 0.2,
+          "Atomic%": 0.6
+        },
+        "Fe K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Sn L": {
+          "Weight%": 7.7,
+          "Sigma": 0.5,
+          "Atomic%": 1.7
+        },
+        "Pb M": {
+          "Weight%": 20.6,
+          "Sigma": 0.6,
+          "Atomic%": 2.6
+        }
+      }
+    },
+    "spot / point (Pt) 1": {
+      "altered": {
+        "label": "red-black",
+        "picture": "assets/chem/4611_a.jpg",
+        "C K": {
+          "Weight%": 2.4,
+          "Sigma": 0.9,
+          "Atomic%": 5.3
+        },
+        "O K": {
+          "Weight%": 35.6,
+          "Sigma": 0.8,
+          "Atomic%": 61.1
+        },
+        "Na K": {
+          "Weight%": 1.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.4
+        },
+        "Mg K": {
+          "Weight%": 0.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.7
+        },
+        "Al K": {
+          "Weight%": 1.6,
+          "Sigma": 0.1,
+          "Atomic%": 1.7
+        },
+        "Si K": {
+          "Weight%": 21.0,
+          "Sigma": 0.4,
+          "Atomic%": 20.6
+        },
+        "Cl K": {
+          "Weight%": 0.2,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 4.7,
+          "Sigma": 0.2,
+          "Atomic%": 3.3
+        },
+        "Ca K": {
+          "Weight%": 1.1,
+          "Sigma": 0.2,
+          "Atomic%": 0.7
+        },
+        "Fe K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Co K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Sn L": {
+          "Weight%": 9.3,
+          "Sigma": 0.5,
+          "Atomic%": 2.2
+        },
+        "Pb M": {
+          "Weight%": 22.1,
+          "Sigma": 0.6,
+          "Atomic%": 2.9
+        }
+      }
+    }
+  },
+  "4651.1 (maiolica) 18th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "yellow",
+        "picture": "assets/chem/4651_1_na.jpg",
+        "C K": {
+          "Weight%": 4.5,
+          "Sigma": 2.4,
+          "Atomic%": 9.3
+        },
+        "O K": {
+          "Weight%": 39.2,
+          "Sigma": 1.5,
+          "Atomic%": 64.1
+        },
+        "Na K": {
+          "Weight%": 2.3,
+          "Sigma": 0.2,
+          "Atomic%": 2.6
+        },
+        "Al K": {
+          "Weight%": 1.1,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Si K": {
+          "Weight%": 16.2,
+          "Sigma": 0.6,
+          "Atomic%": 15.2
+        },
+        "Cl K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "K K": {
+          "Weight%": 3.2,
+          "Sigma": 0.2,
+          "Atomic%": 2.1
+        },
+        "Ca K": {
+          "Weight%": 1.1,
+          "Sigma": 0.2,
+          "Atomic%": 0.7
+        },
+        "Fe K": {
+          "Weight%": 1.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Sn L": {
+          "Weight%": 1.4,
+          "Sigma": 0.5,
+          "Atomic%": 0.3
+        },
+        "Sb L": {
+          "Weight%": 2.6,
+          "Sigma": 0.5,
+          "Atomic%": 0.6
+        },
+        "Pb M": {
+          "Weight%": 27.0,
+          "Sigma": 1.1,
+          "Atomic%": 3.4
+        }
+      },
+      "altered": {
+        "label": "yellow",
+        "picture": "assets/chem/4651_1_a.jpg",
+        "C K": {
+          "Weight%": 3.6,
+          "Sigma": 0.8,
+          "Atomic%": 7.3
+        },
+        "O K": {
+          "Weight%": 38.9,
+          "Sigma": 1.2,
+          "Atomic%": 62.6
+        },
+        "Na K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Al K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 1.3
+        },
+        "Si K": {
+          "Weight%": 22.7,
+          "Sigma": 0.6,
+          "Atomic%": 20.9
+        },
+        "K K": {
+          "Weight%": 3.3,
+          "Sigma": 0.3,
+          "Atomic%": 2.2
+        },
+        "Ca K": {
+          "Weight%": 0.8,
+          "Sigma": 0.2,
+          "Atomic%": 0.5
+        },
+        "Fe K": {
+          "Weight%": 2.3,
+          "Sigma": 0.3,
+          "Atomic%": 1.1
+        },
+        "Sn L": {
+          "Weight%": 1.5,
+          "Sigma": 0.6,
+          "Atomic%": 0.4
+        },
+        "Sb L": {
+          "Weight%": 3.8,
+          "Sigma": 0.6,
+          "Atomic%": 0.8
+        },
+        "Pb M": {
+          "Weight%": 21.4,
+          "Sigma": 0.9,
+          "Atomic%": 2.7
+        }
+      }
+    },
+    "spot / point (Pt) 2": {
+      "unaltered": {
+        "label": "white",
+        "picture": "assets/chem/4651_1_na.jpg",
+        "C K": {
+          "Weight%": 1.1,
+          "Sigma": 0.5,
+          "Atomic%": 2.5
+        },
+        "O K": {
+          "Weight%": 38.1,
+          "Sigma": 0.7,
+          "Atomic%": 65.7
+        },
+        "Na K": {
+          "Weight%": 1.6,
+          "Sigma": 0.1,
+          "Atomic%": 1.9
+        },
+        "Al K": {
+          "Weight%": 1.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.2
+        },
+        "Si K": {
+          "Weight%": 21.1,
+          "Sigma": 0.4,
+          "Atomic%": 20.7
+        },
+        "P K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Cl K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "K K": {
+          "Weight%": 3.2,
+          "Sigma": 0.2,
+          "Atomic%": 2.2
+        },
+        "Ca K": {
+          "Weight%": 1.1,
+          "Sigma": 0.1,
+          "Atomic%": 0.8
+        },
+        "Fe K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Sn L": {
+          "Weight%": 5.7,
+          "Sigma": 0.4,
+          "Atomic%": 1.3
+        },
+        "Pb M": {
+          "Weight%": 26.7,
+          "Sigma": 0.6,
+          "Atomic%": 3.6
+        }
+      },
+      "altered": {
+        "label": "black",
+        "picture": "assets/chem/4651_1_a.jpg",
+        "C K": {
+          "Weight%": 0.7,
+          "Sigma": 1.3,
+          "Atomic%": 1.6
+        },
+        "O K": {
+          "Weight%": 40.5,
+          "Sigma": 1.0,
+          "Atomic%": 66.1
+        },
+        "Na K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Al K": {
+          "Weight%": 1.4,
+          "Sigma": 0.1,
+          "Atomic%": 1.3
+        },
+        "Si K": {
+          "Weight%": 25.0,
+          "Sigma": 0.6,
+          "Atomic%": 23.3
+        },
+        "K K": {
+          "Weight%": 3.4,
+          "Sigma": 0.2,
+          "Atomic%": 2.3
+        },
+        "Ca K": {
+          "Weight%": 0.7,
+          "Sigma": 0.2,
+          "Atomic%": 0.4
+        },
+        "Fe K": {
+          "Weight%": 1.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.7
+        },
+        "Sn L": {
+          "Weight%": 3.7,
+          "Sigma": 0.5,
+          "Atomic%": 0.8
+        },
+        "Pb M": {
+          "Weight%": 22.6,
+          "Sigma": 0.7,
+          "Atomic%": 2.9
+        }
+      }
+    }
+  },
+  "343.1 (maiolica) 17th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "leaf green",
+        "picture": "assets/chem/343_1_na.jpg",
+        "C K": {
+          "Weight%": 7.6,
+          "Sigma": 1.1,
+          "Atomic%": 14.4
+        },
+        "O K": {
+          "Weight%": 35.2,
+          "Sigma": 1.4,
+          "Atomic%": 56.9
+        },
+        "Na K": {
+          "Weight%": 1.9,
+          "Sigma": 0.3,
+          "Atomic%": 2.2
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Al K": {
+          "Weight%": 1.6,
+          "Sigma": 0.1,
+          "Atomic%": 1.7
+        },
+        "Si K": {
+          "Weight%": 16.8,
+          "Sigma": 0.7,
+          "Atomic%": 15.6
+        },
+        "Cl K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 3.5,
+          "Sigma": 0.3,
+          "Atomic%": 2.3
+        },
+        "Ca K": {
+          "Weight%": 2.3,
+          "Sigma": 0.3,
+          "Atomic%": 1.7
+        },
+        "Fe K": {
+          "Weight%": 0.3,
+          "Sigma": 0.2,
+          "Atomic%": 0.5
+        },
+        "Zn K": {
+          "Weight%": 1.2,
+          "Sigma": 0.4,
+          "Atomic%": 0.5
+        },
+        "As L": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Sn L": {
+          "Weight%": 5.7,
+          "Sigma": 0.9,
+          "Atomic%": 1.3
+        },
+        "Sb L": {
+          "Weight%": 1.3,
+          "Sigma": 0.5,
+          "Atomic%": 0.3
+        },
+        "Ba L": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Pb M": {
+          "Weight%": 21.9,
+          "Sigma": 1.1,
+          "Atomic%": 2.8
+        }
+      },
+      "altered": {
+        "label": "blue",
+        "picture": "assets/chem/343_1_a.jpg",
+        "C K": {
+          "Weight%": 3.6,
+          "Sigma": 1.5,
+          "Atomic%": 7.7
+        },
+        "O K": {
+          "Weight%": 36.5,
+          "Sigma": 1.0,
+          "Atomic%": 61.9
+        },
+        "Na K": {
+          "Weight%": 2.4,
+          "Sigma": 0.2,
+          "Atomic%": 2.9
+        },
+        "Mg K": {
+          "Weight%": 0.8,
+          "Sigma": 0.1,
+          "Atomic%": 0.7
+        },
+        "Al K": {
+          "Weight%": 1.1,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Si K": {
+          "Weight%": 16.4,
+          "Sigma": 0.4,
+          "Atomic%": 16.1
+        },
+        "S K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "Cl K": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 2.7,
+          "Sigma": 0.2,
+          "Atomic%": 1.9
+        },
+        "Ca K": {
+          "Weight%": 2.9,
+          "Sigma": 0.2,
+          "Atomic%": 1.7
+        },
+        "Mn K": {
+          "Weight%": 0.5,
+          "Sigma": 0.0,
+          "Atomic%": 0.2
+        },
+        "Fe K": {
+          "Weight%": 0.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.3
+        },
+        "Co K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Zn K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Cu K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Sn L": {
+          "Weight%": 1.6,
+          "Sigma": 0.4,
+          "Atomic%": 0.4
+        },
+        "Sb L": {
+          "Weight%": 3.2,
+          "Sigma": 0.4,
+          "Atomic%": 0.7
+        },
+        "Ba L": {
+          "Weight%": 1.1,
+          "Sigma": 0.2,
+          "Atomic%": 0.2
+        },
+        "Pb M": {
+          "Weight%": 25.6,
+          "Sigma": 0.6,
+          "Atomic%": 3.5
+        }
+      }
+    },
+    "spot / point (Pt) 2": {
+      "unaltered": {
+        "label": "green tip",
+        "picture": "assets/chem/343_1_na.jpg",
+        "C K": {
+          "Weight%": 13.2,
+          "Sigma": 2.3,
+          "Atomic%": 24.7
+        },
+        "O K": {
+          "Weight%": 37.9,
+          "Sigma": 1.1,
+          "Atomic%": 53.4
+        },
+        "Na K": {
+          "Weight%": 1.2,
+          "Sigma": 0.1,
+          "Atomic%": 1.2
+        },
+        "Mg K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.5
+        },
+        "Al K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Si K": {
+          "Weight%": 16.5,
+          "Sigma": 0.5,
+          "Atomic%": 15.3
+        },
+        "Cl K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 2.4,
+          "Sigma": 0.1,
+          "Atomic%": 1.4
+        },
+        "Ca K": {
+          "Weight%": 1.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.9
+        },
+        "Fe K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Co K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Zn K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "As L": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "Sn L": {
+          "Weight%": 1.6,
+          "Sigma": 0.3,
+          "Atomic%": 0.3
+        },
+        "Sb L": {
+          "Weight%": 1.4,
+          "Sigma": 0.2,
+          "Atomic%": 0.3
+        },
+        "Ba L": {
+          "Weight%": 0.3,
+          "Sigma": 0.1,
+          "Atomic%": 0.0
+        },
+        "Pb M": {
+          "Weight%": 20.3,
+          "Sigma": 0.6,
+          "Atomic%": 2.2
+        }
+      }
+    },
+    "spot / point (Pt) 3": {
+      "unaltered": {
+        "label": "white",
+        "picture": "assets/chem/343_1_na.jpg",
+        "C K": {
+          "Weight%": 6.9,
+          "Sigma": 2.0,
+          "Atomic%": 13.5
+        },
+        "O K": {
+          "Weight%": 35.4,
+          "Sigma": 1.5,
+          "Atomic%": 55.5
+        },
+        "Na K": {
+          "Weight%": 2.2,
+          "Sigma": 0.3,
+          "Atomic%": 2.4
+        },
+        "Mg K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.4
+        },
+        "Al K": {
+          "Weight%": 2.0,
+          "Sigma": 0.2,
+          "Atomic%": 1.8
+        },
+        "Si K": {
+          "Weight%": 18.7,
+          "Sigma": 0.7,
+          "Atomic%": 16.9
+        },
+        "Cl K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 4.2,
+          "Sigma": 0.3,
+          "Atomic%": 2.8
+        },
+        "Ca K": {
+          "Weight%": 3.0,
+          "Sigma": 0.3,
+          "Atomic%": 1.9
+        },
+        "Fe K": {
+          "Weight%": 0.8,
+          "Sigma": 0.2,
+          "Atomic%": 0.4
+        },
+        "Zn K": {
+          "Weight%": 1.8,
+          "Sigma": 0.3,
+          "Atomic%": 0.7
+        },
+        "Sn L": {
+          "Weight%": 5.1,
+          "Sigma": 0.7,
+          "Atomic%": 1.1
+        },
+        "Sb L": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.0
+        },
+        "Pb M": {
+          "Weight%": 19.1,
+          "Sigma": 0.9,
+          "Atomic%": 2.4
+        }
+      }
+    },
+    "spot / point (Pt) 4": {
+      "altered": {
+        "label": "white",
+        "picture": "assets/chem/343_1_a.jpg",
+        "C K": {
+          "Weight%": 2.4,
+          "Sigma": 1.4,
+          "Atomic%": 5.1
+        },
+        "O K": {
+          "Weight%": 42.2,
+          "Sigma": 0.7,
+          "Atomic%": 66.2
+        },
+        "Na K": {
+          "Weight%": 3.2,
+          "Sigma": 0.1,
+          "Atomic%": 3.5
+        },
+        "Al K": {
+          "Weight%": 1.3,
+          "Sigma": 0.1,
+          "Atomic%": 1.1
+        },
+        "Si K": {
+          "Weight%": 19.1,
+          "Sigma": 0.3,
+          "Atomic%": 17.0
+        },
+        "Cl K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "K K": {
+          "Weight%": 3.4,
+          "Sigma": 0.1,
+          "Atomic%": 2.2
+        },
+        "Ca K": {
+          "Weight%": 2.6,
+          "Sigma": 0.3,
+          "Atomic%": 1.8
+        },
+        "Fe K": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Zn K": {
+          "Weight%": 0.5,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "Sn L": {
+          "Weight%": 3.2,
+          "Sigma": 0.4,
+          "Atomic%": 1.7
+        },
+        "Sb L": {
+          "Weight%": 0.4,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Pb M": {
+          "Weight%": 18.2,
+          "Sigma": 0.4,
+          "Atomic%": 2.2
+        }
+      }
+    }
+  },
+  "1938.2 (biscuit/unglazed porcelain) 20th century": {
+    "spot / point (Pt) 1": {
+      "unaltered": {
+        "label": "white",
+        "picture": "assets/chem/1938_2_na.jpg",
+        "C K": {
+          "Weight%": 3.9,
+          "Sigma": 0.4,
+          "Atomic%": 7.4
+        },
+        "O K": {
+          "Weight%": 41.9,
+          "Sigma": 0.4,
+          "Atomic%": 60.1
+        },
+        "Na K": {
+          "Weight%": 3.0,
+          "Sigma": 0.1,
+          "Atomic%": 3.0
+        },
+        "Mg K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "Al K": {
+          "Weight%": 7.3,
+          "Sigma": 0.1,
+          "Atomic%": 6.2
+        },
+        "Si K": {
+          "Weight%": 22.0,
+          "Sigma": 0.2,
+          "Atomic%": 18.0
+        },
+        "P K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "Cl K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.2
+        },
+        "K K": {
+          "Weight%": 3.6,
+          "Sigma": 0.1,
+          "Atomic%": 2.1
+        },
+        "Ca K": {
+          "Weight%": 1.0,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Fe K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Zn K": {
+          "Weight%": 1.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.6
+        },
+        "Pb M": {
+          "Weight%": 14.9,
+          "Sigma": 0.3,
+          "Atomic%": 1.7
+        }
+      },
+      "altered": {
+        "label": "black",
+        "picture": "assets/chem/1938_2_a.jpg",
+        "C K": {
+          "Weight%": 3.6,
+          "Sigma": 0.7,
+          "Atomic%": 6.0
+        },
+        "O K": {
+          "Weight%": 45.3,
+          "Sigma": 0.9,
+          "Atomic%": 60.5
+        },
+        "Na K": {
+          "Weight%": 3.3,
+          "Sigma": 0.2,
+          "Atomic%": 3.1
+        },
+        "Mg K": {
+          "Weight%": 0.6,
+          "Sigma": 0.1,
+          "Atomic%": 0.5
+        },
+        "Al K": {
+          "Weight%": 8.9,
+          "Sigma": 0.3,
+          "Atomic%": 7.1
+        },
+        "Si K": {
+          "Weight%": 21.8,
+          "Sigma": 0.5,
+          "Atomic%": 16.7
+        },
+        "P K": {
+          "Weight%": 0.0,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "S K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.1
+        },
+        "Cl K": {
+          "Weight%": 0.1,
+          "Sigma": 0.0,
+          "Atomic%": 0.0
+        },
+        "K K": {
+          "Weight%": 4.8,
+          "Sigma": 0.2,
+          "Atomic%": 2.6
+        },
+        "Ca K": {
+          "Weight%": 4.3,
+          "Sigma": 0.2,
+          "Atomic%": 2.3
+        },
+        "Fe K": {
+          "Weight%": 0.2,
+          "Sigma": 0.1,
+          "Atomic%": 0.1
+        },
+        "Zn K": {
+          "Weight%": 1.1,
+          "Sigma": 0.2,
+          "Atomic%": 0.4
+        },
+        "Pb M": {
+          "Weight%": 5.9,
+          "Sigma": 0.5,
+          "Atomic%": 0.6
+        }
+      }
+    }
+  }
+}
