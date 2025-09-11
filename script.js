@@ -301,6 +301,7 @@ const cardBackgroundImages = {
 
 function renderMaterialCards() {
   const container = document.getElementById("materialCardContainer");
+  if (!container) return;
   container.innerHTML = "";
   const approxOrder = ["0","5","10","15","20","25","30","35","40","45","50",">50","unknown"];
   const groupColors = {
@@ -467,6 +468,7 @@ function renderHeatmap() {
     if (c>maxCount) maxCount = c;
   }));
   const container = document.getElementById("heatmapContainer");
+  if (!container) return;
   let html = '<table class="heatmap-table"><thead><tr><th>Degradation / Material</th>';
   materials.forEach(mat => html += `<th>${mat}</th>`);
   html += '</tr></thead><tbody>';
@@ -930,6 +932,10 @@ document.addEventListener('DOMContentLoaded', () => {
     header: true,
     download: true,
     complete: res => {
+        if (!res.data || res.data.length === 0) {
+        console.warn("Dataset vuoto per", csvFilePath);
+        return;
+      }
       normalizedData = normalizeCsvHeaders(res.data);
     // Raccogli tutti i raw lacuna che non sono in mappaturaValori
     const unknownLacuna = new Set();
@@ -1013,7 +1019,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 4) Vase animation & typewriter
   document.querySelectorAll('.vase-container').forEach(container=>{
     const entry = container.getAttribute('data-entry');
-    const parts = Array.from(container.querySelectorAll('image'));
+    const parts = Array.from(container.querySelectorAll('img, image'));
     parts.forEach((part,idx)=>{
       const off = part.id==='base8'
         ? (entry==='left'?'offscreen-left':entry==='right'?'offscreen-right':'offscreen-up')
@@ -1036,8 +1042,13 @@ document.addEventListener('DOMContentLoaded', () => {
     header: true,
     skipEmptyLines: true,
     complete: function(results) {
+      if (!results.data || results.data.length === 0) {
+        console.warn("Dataset vuoto per assets/datasets/object/object.csv");
+        return;
+      }
       const cols = results.meta.fields;
       const container = document.getElementById('table-container');
+      if (!container) return;
 
       // Crea l'elemento <table>
       const table = document.createElement('table');
@@ -1106,21 +1117,32 @@ document.addEventListener('DOMContentLoaded', () => {
  * @param {string} url - Path to the JSON file
  * @param {string} codeElementId - ID of the <code> element
  */
+
 async function renderJsonHighlighted(url, codeElementId) {
+  // 1) trova il <code> di destinazione; se non c'è, esci senza errori
+  const codeEl = document.getElementById(codeElementId);
+  if (!codeEl) {
+    console.warn(`renderJsonHighlighted: elemento #${codeElementId} non trovato; skip`);
+    return;
+  }
+
   try {
     const response = await fetch(url);
     if (!response.ok) throw new Error(`HTTP ${response.status} - ${response.statusText}`);
+
     const jsonData = await response.json();
     const pretty = JSON.stringify(jsonData, null, 2);
-    const codeEl = document.getElementById(codeElementId);
+
     codeEl.textContent = pretty;
-    // Trigger Highlight.js on the newly inserted content
+
+    // Syntax highlight se disponibile
     if (window.hljs) {
       hljs.highlightElement(codeEl);
     }
   } catch (err) {
     console.error('Error loading JSON:', err);
-    document.getElementById(codeElementId).textContent = 'Failed to load JSON data.';
+    // 2) usa codeEl solo se esiste (lo abbiamo già verificato)
+    codeEl.textContent = 'Failed to load JSON data.';
   }
 }
 
@@ -1140,9 +1162,14 @@ document.addEventListener('DOMContentLoaded', () => {
       header: true,
       skipEmptyLines: true,
       complete: results => {
+        if (!results.data || results.data.length === 0) {
+            console.warn("Dataset vuoto per", csvPath);
+            return;
+          }
         const cols = results.meta.fields;
         const data = results.data;
         const container = document.getElementById(containerId);
+        if (!container) return;
 
         // crea la table
         const table = document.createElement('table');

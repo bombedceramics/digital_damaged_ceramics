@@ -450,7 +450,7 @@ h2{
   }
 
   .vase-container { display: none; }
-  .vase-container:nth-child(2) {
+  .vase-container.center {
     display: flex;
     flex: 0 0 auto;
     width: 70vw;
