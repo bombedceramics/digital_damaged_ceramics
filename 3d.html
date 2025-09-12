@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Interactive Ceramics Map</title>
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
   <!-- MarkerCluster CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet" />
 
-  <!-- model-viewer script (NECESSARIO per 3D models) -->
+  <!-- model-viewer -->
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="style_global.css">
+  <link rel="stylesheet" href="style_global.css" />
   <link rel="stylesheet" href="navbar_footer.css" />
 
-  <!-- Icon e Favicon -->
-  <link rel="icon" href="assets/icons/website_icon.ico" type="image/x-icon">
-  <link rel="icon" href="assets/icons/website_icon.png" sizes="32x32" type="image/png">
-  <link rel="apple-touch-icon" href="assets/icons/website_icon-180.png" sizes="180x180">
+  <!-- Icons -->
+  <link rel="icon" href="assets/icons/website_icon.ico" type="image/x-icon" />
+  <link rel="icon" href="assets/icons/website_icon.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/icons/website_icon-180.png" sizes="180x180" />
 </head>
 <body>
   <!-- Navbar -->
@@ -45,8 +45,7 @@
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="collectionsDropdown" role="button"
-               data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="collectionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Collections
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="collectionsDropdown">
@@ -55,10 +54,8 @@
             </ul>
           </li>
 
-          <!-- NEW: More dropdown -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button"
-               data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               More
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="moreDropdown">
@@ -75,32 +72,42 @@
     </div>
   </nav>
 
-  <!-- Main Content -->
+  <!-- Main -->
   <main class="container py-5">
     <h1 class="text-center mb-5">Interactive 3D Ceramics Models</h1>
+
     <div class="row g-4">
-      <div class="col-12 col-md-6 col-lg-3">
+      <!-- === Oggetto 1 (ex #3) === -->
+      <div class="col-12 col-md-6 col-lg-6">
         <div class="model-card">
-          <model-viewer src="https://pub-6c60523bdada4079abaecc5d09a63641.r2.dev/lp_10056.glb" alt="Ceramic Model 3" auto-rotate camera-controls crossorigin="anonymous"></model-viewer>
-          <p class="text-center mt-2">Object #lp_10056</p>
+          <model-viewer
+            src="https://pub-6c60523bdada4079abaecc5d09a63641.r2.dev/lp_10056.glb"
+            alt="Ceramic Model 10056"
+            poster="assets/preview/1.jpg"
+            loading="lazy"
+            reveal="auto"
+            auto-rotate
+            camera-controls
+            crossorigin="anonymous">
+          </model-viewer>
+          <p class="text-center mt-2">Object #10056</p>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3">
+
+      <!-- === Oggetto 2 (ex #3 nella lista iniziale) === -->
+      <div class="col-12 col-md-6 col-lg-6">
         <div class="model-card">
-          <model-viewer src="https://pub-6c60523bdada4079abaecc5d09a63641.r2.dev/10169_513.glb" alt="Ceramic Model 1" auto-rotate camera-controls crossorigin="anonymous"></model-viewer>
-          <p class="text-center mt-2">Object #10169_513</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="model-card">
-          <model-viewer src="https://pub-6c60523bdada4079abaecc5d09a63641.r2.dev/12584_v2.glb" alt="Ceramic Model 2" auto-rotate camera-controls crossorigin="anonymous"></model-viewer>
+          <model-viewer
+            src="https://pub-6c60523bdada4079abaecc5d09a63641.r2.dev/12584_v2.glb"
+            alt="Ceramic Model 12584"
+            poster="assets/preview/2.jpg"
+            loading="lazy"
+            reveal="auto"
+            auto-rotate
+            camera-controls
+            crossorigin="anonymous">
+          </model-viewer>
           <p class="text-center mt-2">Object #12584</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="model-card">
-          <model-viewer src="https://pub-6c60523bdada4079abaecc5d09a63641.r2.dev/3946a.glb" alt="Ceramic Model 4" auto-rotate camera-controls crossorigin="anonymous"></model-viewer>
-          <p class="text-center mt-2">Object #3946a</p>
         </div>
       </div>
     </div>
@@ -113,7 +120,7 @@
     </div>
   </footer>
 
-  <!-- Script Libraries -->
+  <!-- Scripts (se ti servono altrove, puoi lasciarli) -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
@@ -121,7 +128,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-  <!-- Custom JS -->
   <script src="script.js" defer></script>
 </body>
 </html>
