@@ -1036,58 +1036,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-document.addEventListener('DOMContentLoaded', () => {
-  Papa.parse('assets/datasets/object/object.csv', {
-    download: true,
-    header: true,
-    skipEmptyLines: true,
-    complete: function(results) {
-      if (!results.data || results.data.length === 0) {
-        console.warn("Dataset vuoto per assets/datasets/object/object.csv");
-        return;
-      }
-      const cols = results.meta.fields;
-      const container = document.getElementById('table-container');
-      if (!container) return;
-
-      // Crea l'elemento <table>
-      const table = document.createElement('table');
-      table.classList.add('table', 'table-striped', 'table-hover');
-
-      // Thead
-      const thead = document.createElement('thead');
-      const headerRow = document.createElement('tr');
-      cols.forEach(col => {
-        const th = document.createElement('th');
-        th.textContent = col;
-        headerRow.appendChild(th);
-      });
-      thead.appendChild(headerRow);
-      table.appendChild(thead);
-
-      // Tbody
-      const tbody = document.createElement('tbody');
-      results.data.forEach(row => {
-        const tr = document.createElement('tr');
-        cols.forEach(col => {
-          const td = document.createElement('td');
-          td.textContent = row[col] || '';
-          tr.appendChild(td);
-        });
-        tbody.appendChild(tr);
-      });
-      table.appendChild(tbody);
-
-      // Inserisci la tabella nel container
-      container.appendChild(table);
-    },
-    error: function(err) {
-      console.error('Errore nel caricamento CSV:', err);
-    }
-  });
-});
-
-
 // rdf viewer
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -1109,6 +1057,90 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Error fetching RDF:', error);
       });
   }
+});
+
+// rdf viewer — PROVENANCE
+document.addEventListener('DOMContentLoaded', () => {
+  // usa l'ID corretto; tengo anche un fallback al refuso
+  const viewerProv =
+    document.getElementById('rdf-viewer-provenance') ||
+    document.getElementById('rdf-viewer-povenance'); // se non hai ancora corretto l'HTML
+
+  if (!viewerProv) return;
+
+  fetch('assets/datasets/rdf/provenance-knowledge-graph.ttl')
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.text();
+    })
+    .then(txt => { viewerProv.textContent = txt; })
+    .catch(err => {
+      viewerProv.textContent = 'Error loading RDF content: ' + err;
+      console.error('Error fetching RDF (provenance):', err);
+    });
+});
+
+// ===== CSV render helper (unico per oggetti e processo) =====
+function renderCsvSection(csvPath, containerId) {
+  Papa.parse(csvPath, {
+    download: true,
+    header: true,
+    skipEmptyLines: true,
+    complete: results => {
+      if (!results.data || results.data.length === 0) {
+        console.warn("Dataset vuoto per", csvPath);
+        return;
+      }
+      const cols = results.meta.fields || Object.keys(results.data[0] || {});
+      const data = results.data;
+      const container = document.getElementById(containerId);
+      if (!container) return;
+
+      // pulizia (evita doppioni se ricarichi)
+      container.innerHTML = "";
+
+      // crea la table
+      const table = document.createElement('table');
+      table.classList.add('table', 'table-striped', 'table-hover');
+
+      // thead
+      const thead = document.createElement('thead');
+      const headRow = document.createElement('tr');
+      cols.forEach(c => {
+        const th = document.createElement('th');
+        th.textContent = c;
+        headRow.appendChild(th);
+      });
+      thead.appendChild(headRow);
+      table.appendChild(thead);
+
+      // tbody
+      const tbody = document.createElement('tbody');
+      data.forEach(row => {
+        const tr = document.createElement('tr');
+        cols.forEach(c => {
+          const td = document.createElement('td');
+          td.textContent = row[c] ?? '';
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody);
+
+      container.appendChild(table);
+    },
+    error: err => {
+      console.error('Errore caricamento CSV', err);
+      const c = document.getElementById(containerId);
+      if (c) c.innerHTML = '<p class="text-danger">Impossibile caricare i dati.</p>';
+    }
+  });
+}
+
+// Chiamate per le due sezioni del dataset.html
+document.addEventListener('DOMContentLoaded', () => {
+  renderCsvSection('assets/datasets/object/object.csv', 'table-container');
+  renderCsvSection('assets/datasets/process/process.csv', 'process-table-container');
 });
 
 

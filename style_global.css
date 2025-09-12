@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 body {
-  font-family: 'Lato', sans-seif;
+  font-family: 'Lato', sans-serif;
   color: #000000;
   background-color: #FFFFFF;
 }
@@ -37,10 +37,7 @@ html, body {
 .hero-image::before {
   content: "";
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0;
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
@@ -85,27 +82,30 @@ html, body {
   }
 }
 
-/* Hero section headline styling */
-#home h1 {
+/* Titolo responsive nella hero section (unificato) */
+#home h1,
+#home h1.typewriter {
   font-family: 'Agu Display', cursive;
-  font-size: 3.2rem;
+  font-size: clamp(2.5rem, 7vw, 4rem);
+  line-height: 1.2;
   letter-spacing: 1px;
-  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  margin: 0 auto;
 }
 
-/* ATTUALMENTE NON IN USO
-/* Migliora la leggibilità del testo con un'ombra più marcata */
+/* (DISABILITATO) Ombre testo hero-image non in uso
 .hero-image h1 {
   font-family: 'Agu Display', cursive;
   font-size: 3.2rem;
   letter-spacing: 1px;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
 }
-
 .hero-image p {
   font-size: 1.2rem;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
 }
+*/
 
 h2{
   font-family: 'Righteous', cursive;
@@ -149,7 +149,7 @@ h2{
 
 .about-overlay h2{
   font-size: 2rem;
-  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+  text-shadow: none; /* niente ombra testo */
 }
 
 /* Social Icons */
@@ -191,17 +191,14 @@ h2{
   margin-bottom: 1rem;
 }
 
-/* Card Styling */
+/* Card Styling (no ombre scure) */
 .card.team-card {
   border: 2px solid #4793AF;
   background-color: #FFFFFF;
   transition: transform 0.3s ease;
   height: 100%;
 }
-
-.card.team-card:hover {
-  transform: translateY(-5px);
-}
+.card.team-card:hover { transform: translateY(-5px); }
 
 .card-body p {
   font-size: 0.95rem;
@@ -221,9 +218,7 @@ h2{
 
 /* Responsive */
 @media (max-width: 768px) {
-  #map {
-    height: 400px;
-  }
+  #map { height: 400px; }
 
   .team-member img.rounded-circle {
     width: 120px;
@@ -248,6 +243,7 @@ h2{
   background: linear-gradient(135deg, #8B322C, #B36A5E);
   color: #FFFFFF;
   padding: 4rem 0;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Stili per i titoli e paragrafi nella sezione */
@@ -258,10 +254,6 @@ h2{
   margin-bottom: 1rem;
 }
 
-#collections {
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
 /* Stili specifici per l'hero della collezione MIC */
 #mic-hero {
   background: url('assets/filling/10.jpg') no-repeat center center;
@@ -270,24 +262,15 @@ h2{
   color: #FFFFFF;
   text-align: center;
 }
-
 #mic-hero::before {
   content: "";
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0;
   background: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
-
 /* Assicura che il contenuto (testo) sia sempre in primo piano */
-#mic-hero > * {
-  position: relative;
-  z-index: 2;
-}
-
+#mic-hero > * { position: relative; z-index: 2; }
 #mic-hero h1 {
   font-family: 'Agu Display', cursive;
   font-size: 3.2rem;
@@ -303,24 +286,15 @@ h2{
   color: #FFFFFF;
   text-align: center;
 }
-
 #sevres-hero::before {
   content: "";
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0;
   background: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
-
 /* Assicura che il contenuto (testo) sia sempre in primo piano */
-#sevres-hero > * {
-  position: relative;
-  z-index: 2;
-}
-
+#sevres-hero > * { position: relative; z-index: 2; }
 #sevres-hero h1 {
   font-family: 'Agu Display', cursive;
   font-size: 3.2rem;
@@ -378,6 +352,7 @@ h2{
     max-width: 80vw;
   }
 }
+
 /* Stati iniziali offscreen */
 .offscreen-left   { transform: translateX(-150%); }
 .offscreen-right  { transform: translateX(150%); }
@@ -391,14 +366,10 @@ h2{
 .offscreen-left,
 .offscreen-right,
 .offscreen-up,
-.onscreen {
-  transition: transform 0.6s ease-out;
-}
+.onscreen { transition: transform 0.6s ease-out; }
 
 /* Pulsante sempre sotto i vasi */
-.vase-container + a.btn {
-  margin-top: 1rem;
-}
+.vase-container + a.btn { margin-top: 1rem; }
 
 /* Typewriter effect for hero title without caret */
 #home h1.typewriter {
@@ -406,30 +377,11 @@ h2{
   white-space: nowrap;
   animation: typing 3s steps(30, end) forwards;
 }
+@keyframes typing { from { width: 0; } to { width: 100%; } }
 
-@keyframes typing {
-  from { width: 0; }
-  to   { width: 100%; }
-}
-
-/* Titolo responsive nella hero section */
-#home h1 {
-  font-size: clamp(2.5rem, 7vw, 4rem);
-  line-height: 1.2;
-  font-family: 'Agu Display', cursive;
-  letter-spacing: 1px;
-  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
-  width: 90%;
-  margin: 0 auto;
-}
-
-/* ====== Mobile breakpoint già esistente (corretto) ====== */
+/* ====== Mobile breakpoint ====== */
 @media (max-width: 576px) {
-  #home {
-    height: auto;
-    padding: 2rem 0;
-  }
-
+  #home { height: auto; padding: 2rem 0; }
   #home h1 {
     font-size: clamp(4rem, 14vw, 5rem);
     animation: bounceMobile 1.5s ease-out;
@@ -438,7 +390,6 @@ h2{
     margin: 0 auto 1rem;
     line-height: 1.1;
   }
-
   #home h1.typewriter {
     overflow: visible;
     white-space: normal;
@@ -446,7 +397,6 @@ h2{
     border: none;
     width: auto;
   }
-
   .vase-container { display: none; }
   .vase-container.center {
     display: flex;
@@ -465,93 +415,39 @@ h2{
   100% { transform: translateY(0); }
 }
 
-/* ====== NUOVO: breakpoint fino a 992px per wrap titolo Hero ====== */
+/* ====== Breakpoint fino a 992px per wrap titolo Hero ====== */
 @media (max-width: 992px) {
-  #home h1,
-  #home h1.typewriter {
+  #home h1, #home h1.typewriter {
     white-space: normal !important;
     overflow: visible !important;
     width: 90% !important;
     margin: 0 auto !important;
     font-size: clamp(2.5rem, 7vw, 5rem) !important;
   }
-
-  #home h1.typewriter {
-    animation: none !important;
-    width: auto !important;
-  }
+  #home h1.typewriter { animation: none !important; width: auto !important; }
 }
 
-/* ====== Fix per caroselli MIC senza far sparire le immagini ====== */
-
-/* 1) Contenitore del carosello: nasconde l’eccesso */
+/* ====== Fix per caroselli MIC (versione unica, niente duplicati) ====== */
 #catalogue-container .carousel-inner {
   position: relative;
   overflow: hidden;
   height: 300px;
 }
-
-/* 2) Mantieni la transizione di Bootstrap */
-#catalogue-container .carousel-item {
-  transition: transform .6s ease;
-}
-
-/* 3) Dimensiona correttamente l’immagine dentro ogni slide */
+#catalogue-container .carousel-item { transition: transform .6s ease; }
 #catalogue-container .carousel-item img {
   display: block;
-  width: 100%;
-  height: auto;
-  max-height: 100%;
-  object-fit: contain;
-  margin: 0 auto;
-}
-
-/* 4) Assicurati che i controlli rimangano visibili */
-#catalogue-container .carousel-control-prev,
-#catalogue-container .carousel-control-next {
-  z-index: 10;
-}
-
-/* ==== Stop alle immagini fuori dalla card ==== */
-
-/* 1) Nascondi qualunque eccesso all’interno della card */
-#catalogue-container .card {
-  position: relative;
-  overflow: hidden;
-}
-
-/* 2) Contenitore carosello già impostato a 300px di altezza */
-#catalogue-container .carousel-inner {
-  height: 300px;
-  overflow: hidden;
-}
-
-/* Ogni slide (e la card che la contiene) overflow hidden */
-#catalogue-container .card,
-#catalogue-container .carousel-item {
-  overflow: hidden;
-}
-
-/* L’immagine in cover, centrata */
-#catalogue-container .carousel-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center center;
-  display: block;
+  object-fit: contain;      /* evita tagli */
+  object-position: center;
+  margin: 0 auto;
 }
-
-/* 5) Assicurati che le frecce rimangano sopra */
 #catalogue-container .carousel-control-prev,
-#catalogue-container .carousel-control-next {
-  z-index: 10;
-}
+#catalogue-container .carousel-control-next { z-index: 10; }
 
 /* =========================
    CUSTOM ACCORDION STYLES
    ========================= */
-
-/* Rimuove sfondo e bordo di default */
 .accordion-button {
   background: transparent !important;
   border: none !important;
@@ -562,53 +458,31 @@ h2{
   color: #333 !important;
   position: relative;
 }
-
-/* Sottolineatura viola sotto il testo */
+/* Sottolineatura */
 .accordion-button::after {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 3px;
-  background: #8B322C;
+  left: 0; right: 0; bottom: 0;
+  height: 3px; background: #8B322C;
 }
-
 /* Freccia a destra (FontAwesome) */
 .accordion-button::before {
   font-family: "Font Awesome 5 Free";
   content: "\f078";
   font-weight: 900;
   position: absolute;
-  right: 0;
-  top: 50%;
+  right: 0; top: 50%;
   transform: translateY(-50%) rotate(0deg);
   transition: transform 0.3s ease;
 }
-
-/* Quando è aperto, cambia colore e ruota la freccia */
-.accordion-button:not(.collapsed) {
-  color: #4793AF !important;
-}
+/* Stato aperto */
+.accordion-button:not(.collapsed) { color: #4793AF !important; }
 .accordion-button:not(.collapsed)::before {
   transform: translateY(-50%) rotate(180deg);
 }
-
-/* Rimuove il “bordo” orizzontale che Bootstrap mette tra header/body */
-.accordion-item {
-  border: none;
-}
-
-/* Spazio interno al pannello aperto */
-.accordion-body {
-  padding: 1.5rem 0;
-  border-top: none;
-}
-
-/* Separa visivamente gli item */
-.accordion-item + .accordion-item {
-  margin-top: 2rem;
-}
+.accordion-item { border: none; }
+.accordion-body { padding: 1.5rem 0; border-top: none; }
+.accordion-item + .accordion-item { margin-top: 2rem; }
 
 /* HEATMAP */
 .heatmap-table {
@@ -622,51 +496,35 @@ h2{
   text-align: center;
   padding: 4px;
 }
-#heatmapContainer {
-  margin-top: 1rem;
-}
+#heatmapContainer { margin-top: 1rem; }
 
 .chart-container {
   width: 100%;
   overflow-x: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0 1rem;
 }
 
 /* Tutti i canvas dei grafici Chart.js */
-canvas {
-  width: 100% !important;
-  height: 400px !important;
-}
+canvas { width: 100% !important; height: 400px !important; }
 
 /* Container responsive per il Sankey */
-#sankeyChart {
-  width: 100%;
-}
+#sankeyChart { width: 100%; }
 
 /* Quando ci troviamo dentro #collapseCondition, container diventa full-width */
-#collapseCondition .container {
-  max-width: none;
-  width: 100%;
-}
-
-.chart-container {
-  overflow-x: auto;
-}
+#collapseCondition .container { max-width: none; width: 100%; }
 
 .modal-body canvas { width: 100% !important; height: auto !important; }
 
 /* Colorazione label SPARQL Interface */
-#sparql-interface .form-label.fw-bold.fs-5 {
-  color: #DD5746;
-}
+#sparql-interface .form-label.fw-bold.fs-5 { color: #DD5746; }
 
 .model-card {
   background: white;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* ombra leggera, non nera/pesante */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
   height: 100%;
 }
 model-viewer {
@@ -675,7 +533,12 @@ model-viewer {
   border-radius: 4px;
 }
 
-/* Container scrollabile per le tabelle */
+/* =========================
+   TABELLE CSV UNIFICATE
+   ========================= */
+
+/* Contenitore scrollabile (classe riusabile + compat con ID esistenti) */
+.csv-table-container,
 #table-container,
 #table-container-obj,
 #table-container-pro {
@@ -684,11 +547,11 @@ model-viewer {
   border: 1px solid #ddd;
   padding: 0.5rem;
   background: #fff;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 
 /* Stili base per le tabelle */
+.csv-table,
 #table-container table,
 #table-container-obj table,
 #table-container-pro table {
@@ -697,12 +560,10 @@ model-viewer {
   font-size: 0.85rem;
 }
 
-#table-container th,
-#table-container td,
-#table-container-obj th,
-#table-container-obj td,
-#table-container-pro th,
-#table-container-pro td {
+.csv-table th, .csv-table td,
+#table-container th, #table-container td,
+#table-container-obj th, #table-container-obj td,
+#table-container-pro th, #table-container-pro td {
   padding: 0.4rem;
   border: 1px solid #ccc;
   white-space: normal;
@@ -710,84 +571,75 @@ model-viewer {
   min-width: 150px;
 }
 
-#table-container th,
-#table-container-obj th,
-#table-container-pro th {
+/* Header più evidente (sticky opzionale) */
+.csv-table thead th,
+#table-container thead th,
+#table-container-obj thead th,
+#table-container-pro thead th {
   font-weight: 600;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1;
 }
 
-/* Colori pastello per 6 colonne alternate */
-#table-container th:nth-child(6n+1),
-#table-container td:nth-child(6n+1),
-#table-container-obj th:nth-child(6n+1),
-#table-container-obj td:nth-child(6n+1),
-#table-container-pro th:nth-child(6n+1),
-#table-container-pro td:nth-child(6n+1) {
-  background-color: #C3D9ED;
-}
-#table-container th:nth-child(6n+2),
-#table-container td:nth-child(6n+2),
-#table-container-obj th:nth-child(6n+2),
-#table-container-obj td:nth-child(6n+2),
-#table-container-pro th:nth-child(6n+2),
-#table-container-pro td:nth-child(6n+2) {
-  background-color: #EBC6B0;
-}
-#table-container th:nth-child(6n+3),
-#table-container td:nth-child(6n+3),
-#table-container-obj th:nth-child(6n+3),
-#table-container-obj td:nth-child(6n+3),
-#table-container-pro th:nth-child(6n+3),
-#table-container-pro td:nth-child(6n+3) {
-  background-color: #E1A298;
-}
-#table-container th:nth-child(6n+4),
-#table-container td:nth-child(6n+4),
-#table-container-obj th:nth-child(6n+4),
-#table-container-obj td:nth-child(6n+4),
-#table-container-pro th:nth-child(6n+4),
-#table-container-pro td:nth-child(6n+4) {
-  background-color: #EFE3B0;
-}
-#table-container th:nth-child(6n+5),
-#table-container td:nth-child(6n+5),
-#table-container-obj th:nth-child(6n+5),
-#table-container-obj td:nth-child(6n+5),
-#table-container-pro th:nth-child(6n+5),
-#table-container-pro td:nth-child(6n+5) {
-  background-color: #F9F3E9;
-}
-#table-container th:nth-child(6n+6),
-#table-container td:nth-child(6n+6),
-#table-container-obj th:nth-child(6n+6),
-#table-container-obj td:nth-child(6n+6),
-#table-container-pro th:nth-child(6n+6),
-#table-container-pro td:nth-child(6n+6) {
-  background-color: #FDFBF6;
+/* Colori pastello a colonne (1..6 ricorrenti) */
+.csv-table :is(th, td):nth-child(6n+1),
+#table-container :is(th, td):nth-child(6n+1),
+#table-container-obj :is(th, td):nth-child(6n+1),
+#table-container-pro :is(th, td):nth-child(6n+1) { background-color: #C3D9ED; }
+
+.csv-table :is(th, td):nth-child(6n+2),
+#table-container :is(th, td):nth-child(6n+2),
+#table-container-obj :is(th, td):nth-child(6n+2),
+#table-container-pro :is(th, td):nth-child(6n+2) { background-color: #EBC6B0; }
+
+.csv-table :is(th, td):nth-child(6n+3),
+#table-container :is(th, td):nth-child(6n+3),
+#table-container-obj :is(th, td):nth-child(6n+3),
+#table-container-pro :is(th, td):nth-child(6n+3) { background-color: #E1A298; }
+
+.csv-table :is(th, td):nth-child(6n+4),
+#table-container :is(th, td):nth-child(6n+4),
+#table-container-obj :is(th, td):nth-child(6n+4),
+#table-container-pro :is(th, td):nth-child(6n+4) { background-color: #EFE3B0; }
+
+.csv-table :is(th, td):nth-child(6n+5),
+#table-container :is(th, td):nth-child(6n+5),
+#table-container-obj :is(th, td):nth-child(6n+5),
+#table-container-pro :is(th, td):nth-child(6n+5) { background-color: #F9F3E9; }
+
+.csv-table :is(th, td):nth-child(6n+6),
+#table-container :is(th, td):nth-child(6n+6),
+#table-container-obj :is(th, td):nth-child(6n+6),
+#table-container-pro :is(th, td):nth-child(6n+6) { background-color: #FDFBF6; }
+
+/* ——— Unifica stile e colori per TUTTE le tabelle CSV ——— */
+:where(.csv-table-container, #table-container, #process-table-container, #table-container-obj, #table-container-pro) {
+  max-height: 600px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  background: #fff;
+  margin: 1rem 0;
 }
 
-/* Colori pastello per 6 colonne alternate, basati sull'immagine */
-#table-container th:nth-child(6n+1),
-#table-container td:nth-child(6n+1) {
-  background-color: #C3D9ED;
+/* disattiva lo striped Bootstrap dentro i nostri container */
+:where(.csv-table-container, #table-container, #process-table-container, #table-container-obj, #table-container-pro)
+  table.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: transparent;
 }
-#table-container th:nth-child(6n+2),
-#table-container td:nth-child(6n+2) {
-  background-color: #EBC6B0;
-}
-#table-container th:nth-child(6n+3),
-#table-container td:nth-child(6n+3) {
-  background-color: #E1A298;
-}
-#table-container th:nth-child(6n+4),
-#table-container td:nth-child(6n+4) {
-  background-color: #EFE3B0;
-}
-#table-container th:nth-child(6n+5),
-#table-container td:nth-child(6n+5) {
-  background-color: #F9F3E9;
-}
-#table-container th:nth-child(6n+6),
-#table-container td:nth-child(6n+6) {
-  background-color: #FDFBF6;
-}
+
+/* colonne a colori (stessa palette ovunque) */
+:where(.csv-table-container, #table-container, #process-table-container, #table-container-obj, #table-container-pro)
+  table :is(th,td):nth-child(6n + 1) { background-color:#C3D9ED; }
+:where(.csv-table-container, #table-container, #process-table-container, #table-container-obj, #table-container-pro)
+  table :is(th,td):nth-child(6n + 2) { background-color:#EBC6B0; }
+:where(.csv-table-container, #table-container, #process-table-container, #table-container-obj, #table-container-pro)
+  table :is(th,td):nth-child(6n + 3) { background-color:#E1A298; }
+:where(.csv-table-container, #table-container, #process-table-container, #table-container-obj, #table-container-pro)
+  table :is(th,td):nth-child(6n + 4) { background-color:#EFE3B0; }
+:where(.csv-table-container, #table-container, #process-table-container, #table-container-obj, #table-container-pro)
+  table :is(th,td):nth-child(6n + 5) { background-color:#F9F3E9; }
+:where(.csv-table-container, #table-container, #process-table-container, #table-container-obj, #table-container-pro)
+  table :is(th,td):nth-child(6n + 6) { background-color:#FDFBF6; }

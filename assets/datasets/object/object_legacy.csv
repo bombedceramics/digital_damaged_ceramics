@@ -1,5 +1,9 @@
-museum,inventory,pictures filenames,material,provenance (country code),provenance,number of fragments,lacunary percentage,Integrity,degradation state,condition state,weapon,observations,Code,Physical_Location,Caption,Digital_Reproduction,Document_Type_NO_AAT,Document_Type,Technique,Subjects,Museum_Title,Title_EN,Date,Author,Collection,Conserving_Institution,Conservation_Location,provenance_file
-MNC,19463,"19463 (6).JPG 
+museum,inventory,pictures filenames,material,provenance (country code),provenance,number of fragments,lacunary percentage,Integrity,degradation state,condition state,weapon,observations ,NR,Collocazione fisica,Didascalia,Riproduzione digitale,"Tipologia
+ documentaria NO AAT","Tipologia
+ documentaria",Tecnica,Soggetti,Titolo museale,Titolo @en,Data,Autore,Collezione,"Ente
+ conservatore","Luogo
+ conservazione",provenance_file
+MNC,19463,"19463 (6).JPG
 19453 (2).JPG
 19453 (4).JPG",terre cuite,788,Tunisia {North Africa},44,<10,complete archeological profile,"powderiness, biological degradation/ presence of microorganisms, dust / dirtying",poor,explosive bomb,colombin shaping technique. ,19463,pas de num (caisse isolée) avec présence d'autres fragments exogènes ,"
 rustic tunisian pottery gubtua dish from Ferryville region, bitumen and shellac decoration ",,plate,"""plates (general, dishes)""",pottery forming techniques,,Tunisian plate,,1800-1999,,Dr. Gobert Donation,Sèvres - Manufacture et Musée nationaux [VIAF:153148184],Sèvres,sevres_terre cuite.csv
@@ -323,7 +327,7 @@ DSC_0318.JPG
 MIC,SI_v.20.1,DSC_0323.JPG,porcelaine,156,China {Asia},>60,40,incomplete,"broken / stuck, burn mark, melting of the glaze",bad,incendiary grenade,"comes from showcase 178 in the pre-war museum. Difficult to morph the fragments as they are already glued. But there are many small and very small fragments (less than 2cm), and the typology of the fragments is peculiar, very jagged, which makes for solid reassembly and avoids jaggedness.",,,lion-headed handles porcelain vase with floral and interior scenes decorations,,vase,vases,pottery forming techniques,lion heads; flowers; interior scenes,china porcelain vase decorated with interior scenes in medallions ,,1800-1899,,,MIC Museo Internazionale della Ceramica in Faenza,Faenza,faenza_porcelaine.csv
 MIC,"9738,1","9738,1 (3).JPG
 9738,1 (7).JPG",porcelaine,380,Italy {Europe} (production Ginnori),2,0,complete,"burn mark, melting of the glaze",bad,incendiary grenade,"post-war duplicate. We can see that it is slightly larger, could the size have shrunk during the fire?","9738,1",,sugar bowl with floral decorations,,sugar bowl,sugar bowls,pottery forming techniques,flowers,Ginnori sugar bowl with floral decoration ,,1700-1799,Ginnori manufacture,,MIC Museo Internazionale della Ceramica in Faenza,Faenza,faenza_porcelaine.csv
-MIC,SI_Ginnori ,"inconnu Ginnori (15).JPG  
+MIC,SI_Ginnori ,"inconnu Ginnori (15).JPG
 Inconnu Ginnori (6).JPG",porcelaine,380,Italy {Europe} (production Ginnori),10,10,complete archeological profile,"burn mark, broken / stuck, melting of the glaze, fusion of exogenous elements, metallization traces",bad,incendiary grenade,"post-war duplicate, also slightly larger. Given that it's from the same factory, either the component has shrunk during the fire, or the duplicate is slightly larger than the originals. No inventory no., but given the condition probably in Fondo salita refuge with the others. point of impact probably at collar level, as only this part is missing.",,,coffee cup with fruit decorations,,coffee cup,coffee cups,pottery forming techniques,fruits,Ginnori cup with fruit decoration ,,1700-1799,Ginnori manufacture,,MIC Museo Internazionale della Ceramica in Faenza,Faenza,faenza_porcelaine.csv
 MIC,"1938,2","1938,2 (11).JPG
 1938,2 (13).JPG

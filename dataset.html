@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Interactive Ceramics Map - Dataset</title>
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
   <!-- MarkerCluster CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet" />
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="style_global.css">
+  <link rel="stylesheet" href="style_global.css" />
   <link rel="stylesheet" href="navbar_footer.css" />
 
-  <!-- Icon e Favicon -->
-  <link rel="icon" href="assets/icons/website_icon.ico" type="image/x-icon">
-  <link rel="icon" href="assets/icons/website_icon.png" sizes="32x32" type="image/png">
-  <link rel="apple-touch-icon" href="assets/icons/website_icon-180.png" sizes="180x180">
+  <!-- Icons -->
+  <link rel="icon" href="assets/icons/website_icon.ico" type="image/x-icon" />
+  <link rel="icon" href="assets/icons/website_icon.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/icons/website_icon-180.png" sizes="180x180" />
 </head>
 <body>
   <!-- Navbar -->
@@ -50,7 +50,6 @@
             </ul>
           </li>
 
-          <!-- NEW: More dropdown -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button"
                data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,7 +58,7 @@
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="moreDropdown">
               <li><a class="dropdown-item" href="sparql.html">SPARQL</a></li>
               <li><a class="dropdown-item" href="3d.html">3D</a></li>
-              <li><a class="dropdown-item active" href="dataset.html">Dataset</a></li>
+              <li><a class="dropdown-item active" aria-current="page" href="dataset.html">Dataset</a></li>
               <li><a class="dropdown-item" href="chem.html">Chemical Analyses</a></li>
             </ul>
           </li>
@@ -74,25 +73,28 @@
   <main class="container py-5">
     <h1 class="text-center mb-5">Dataset</h1>
     <p>
-      The datasets are distributed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener">Creative Commons Attribution 4.0 International (CC BY 4.0)</a> license, which permits use, sharing, adaptation, and redistribution, including for commercial purposes, provided that appropriate credit is given to the original authors.
+      The datasets are distributed under the
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>
+      license, which permits use, sharing, adaptation, and redistribution, including for commercial purposes, provided that appropriate credit is given to the original authors.
     </p>
 
     <!-- Museum Objects Tabular Dataset -->
     <section id="museum-objects" class="mb-5 text-center">
       <h2 class="h4 mb-3">Museum Objects Dataset</h2>
-      <div id="table-container" class="table-responsive mx-auto"></div>
+      <div id="table-container" class="csv-table-container table-responsive mx-auto"></div>
       <a href="assets/datasets/object/object.csv" download class="btn btn-primary mb-3">CSV Download</a>
     </section>
 
     <!-- Digitisation Process Dataset -->
     <section id="digitisation-process" class="mb-5 text-center">
       <h2 class="h4 mb-3">Digitisation Process Dataset</h2>
-      <a href="assets/datasets/digitisation_process.csv" download class="btn btn-primary">CSV Download</a>
+      <div id="process-table-container" class="csv-table-container table-responsive mx-auto"></div>
+      <a href="assets/datasets/process/process.csv" download class="btn btn-primary">CSV Download</a>
     </section>
 
     <!-- RDF Complete Dataset -->
     <section id="rdf-complete" class="mb-5 text-center">
-      <h2 class="h4 mb-3">RDF Complete Knowledge Graph </h2>
+      <h2 class="h4 mb-3">RDF Complete Knowledge Graph</h2>
       <div class="container d-flex justify-content-center">
         <div class="table-responsive" style="max-width: 1000px;">
           <pre id="rdf-viewer" class="text-start p-3 border rounded" style="background-color: #f8f9fa; max-height: 500px; overflow-y: auto; white-space: pre-wrap;">Loading RDF content...</pre>
@@ -102,11 +104,11 @@
     </section>
 
     <!-- Provenance Dataset -->
-    <section id="prvenance-dataset" class="mb-5 text-center">
-      <h2 class="h4 mb-3">RDF Provenance Knowledge Graph </h2>
+    <section id="provenance-dataset" class="mb-5 text-center">
+      <h2 class="h4 mb-3">RDF Provenance Knowledge Graph</h2>
       <div class="container d-flex justify-content-center">
         <div class="table-responsive" style="max-width: 1000px;">
-          <pre id="rdf-viewer-povenance" class="text-start p-3 border rounded" style="background-color: #f8f9fa; max-height: 500px; overflow-y: auto; white-space: pre-wrap;">Loading RDF content...</pre>
+          <pre id="rdf-viewer-provenance" class="text-start p-3 border rounded" style="background-color: #f8f9fa; max-height: 500px; overflow-y: auto; white-space: pre-wrap;">Loading RDF content...</pre>
         </div>
       </div>
       <a href="assets/datasets/rdf/provenance-knowledge-graph.ttl" download class="btn btn-primary mb-3">TTL Download</a>
@@ -121,7 +123,6 @@
         <li><a href="____" download class="btn btn-link">RDF Complete v1.0</a></li>
       </ul>
     </section>
-
   </main>
 
   <!-- Footer -->
