@@ -793,10 +793,3 @@ model-viewer {
 #table-container td:nth-child(6n+6) {
   background-color: #FDFBF6;
 }
-
-
-@media (max-width: 576px) {
-  .vase-container.center {
-    outline: 3px solid red !important;
-  }
-}
