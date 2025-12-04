@@ -2,7 +2,7 @@
 const MAX_ATTEMPTS = 5;
 
 // Path to the CSV file
-const csvFilePath = 'input_data_per_web/unified_dataset_ceramics_ver10.csv';
+const csvFilePath = 'input_data_per_web/unified_dataset_ceramics_ver11.csv';
 
 function simplifyId(str) {
   let id = str.replace(/\s*[\(\[].*?[\)\]]\s*/g,'');

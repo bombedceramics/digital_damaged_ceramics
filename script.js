@@ -14,7 +14,7 @@ let sankeyFlows = [];
 let map, markersCluster;
 
 // --- Config CSV/Colors/Translations/Coordinates ---
-const csvFilePath = 'input_data_per_web/unified_dataset_ceramics_ver10.csv';
+const csvFilePath = 'input_data_per_web/unified_dataset_ceramics_ver11.csv';
 const palette = ["#4793AF","#FFC470","#DD5746","#8B322C","#B36A5E","#A64942","#D99152"];
 const materialTranslations = {
   "terre cuite":"Terracotta","terraglia":"Creamware","porcelaine":"Porcellain",
@@ -38,15 +38,36 @@ const normalizedMaterialTranslations = Object.fromEntries(
 
 
 const countryCoordinates = {
-  "250":[46.2276,2.2137],"380":[41.8719,12.5674],"276":[51.1657,10.4515],
-  "724":[40.4637,-3.7492],"56":[50.5039,4.4699],"528":[52.1326,5.2913],
-  "246":[61.9241,25.7482],"756":[46.8182,8.2275],"156":[35.8617,104.1954],
-  "364":[32.4279,53.6880],"356":[20.5937,78.9629],"368":[33.2232,43.6793],
-  "616":[51.9194,19.1451],"620":[39.3999,-8.2245],"818":[26.8206,30.8025],
-  "826":[55.3781,-3.4360],"642":[45.9432,24.9668],"392":[36.2048,138.2529],
-  "MAG":[32.0,-5.0],"604":[-12.0464,-77.0428],"MED":[41.0082,28.9784],
-  "788":[33.8869,9.5375]
+  "250":[46.2276,2.2137],       // France
+  "380":[41.8719,12.5674],      // Italy
+  "276":[51.1657,10.4515],      // Germany
+  "724":[40.4637,-3.7492],      // Spain
+  "56":[50.5039,4.4699],        // Belgium
+  "528":[52.1326,5.2913],       // Netherlands
+  "246":[61.9241,25.7482],      // Finland
+  "756":[46.8182,8.2275],       // Switzerland
+  "156":[35.8617,104.1954],     // China
+  "364":[32.4279,53.6880],      // Iran
+  "356":[20.5937,78.9629],      // India
+  "368":[33.2232,43.6793],      // Iraq
+  "616":[51.9194,19.1451],      // Poland
+  "620":[39.3999,-8.2245],      // Portugal
+  "818":[26.8206,30.8025],      // Egypt
+  "826":[55.3781,-3.4360],      // United Kingdom
+  "642":[45.9432,24.9668],      // Romania
+  "392":[36.2048,138.2529],     // Japan
+  "MAG":[32.0,-5.0],            // Morocco (custom code)
+  "604":[-12.0464,-77.0428],    // Peru
+  "MED":[41.0082,28.9784],      // Mediterranean (Istanbul)
+  "788":[33.8869,9.5375],       // Tunisia
+  "100":[42.6977,23.3219],      // Bulgaria — Sofia
+  "643":[55.7558,37.6176],      // Russia — Moscow
+  "348":[47.4979,19.0402],      // Hungary — Budapest
+  "752":[59.3293,18.0686],      // Sweden — Stockholm
+  "208":[55.6761,12.5683]       // Denmark — Copenhagen
 };
+
+//
 
 // ====== Breakpoints per charts ======
 const valoriApproximati = {
