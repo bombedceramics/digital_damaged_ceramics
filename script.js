@@ -317,8 +317,10 @@ const cardBackgroundImages = {
   "Mix (Terracotta + Quartz)": "assets/materials/mixte-terre-cuite-quartz-.jpg",
   "Porcellain": "assets/materials/porceclaine.jpg",
   "Creamware": "assets/materials/terraglia.jpg",
-  "Terracotta": "assets/materials/terre-cuite.jpg"
+  "Terracotta": "assets/materials/terre-cuite.jpg",
+  "Biscuit": "assets/materials/biscuit.jpg"
 };
+
 
 function renderMaterialCards() {
   const container = document.getElementById("materialCardContainer");

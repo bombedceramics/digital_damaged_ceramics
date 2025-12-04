@@ -29,7 +29,8 @@ const materialTranslations = {
   "mixte": "Mix",
   "métal": "Metal",
   "mixte(terre cuite+quartz)": "Mix (Terracotta + Quartz)",
-  "mixte (grés + métal)": "Mix (Stonewear + Metal)"
+  "mixte (grés + métal)": "Mix (Stonewear + Metal)",
+  "biscuit" : "Biscuit"
 };
 
 // Dictionary for background images (keys are the translated material names)
@@ -40,7 +41,8 @@ const backgroundImages = {
   "Mix (Terracotta + Quartz)": "assets/materials/mixte-terre-cuite-quartz-.jpg",
   "Porcellain": "assets/materials/porceclaine.jpg",
   "Creamware": "assets/materials/terraglia.jpg",
-  "Terracotta": "assets/materials/terre-cuite.jpg"
+  "Terracotta": "assets/materials/terre-cuite.jpg",
+  "Biscuit": "assets/materials/biscuit.jpg"
 };
 
 // Funzione di sanitizzazione per creare ID validi
@@ -58,8 +60,10 @@ Papa.parse(csvFilePath, {
   download: true,
   complete: function(results) {
     const data = results.data;
-    // Filter for MIC collection rows: provenance_file starting with "faenza_"
-    const micData = data.filter(row => row["provenance_file"] && row["provenance_file"].startsWith("faenza_"));
+    const micData = data.filter(row =>
+        // Filter rows for faenza collection: Musée -> MIC
+      row["Musée"] && row["Musée"].trim() === "MIC"
+    );
     // Group the rows by translated "matériau simplifié"
     const groups = groupByMaterial(micData);
     // Render the catalogue grouped by material
