@@ -6,44 +6,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const JSON_PATH = "assets/videos/video_links.json";
 
-  // Converte una URL YouTube (anche Shorts) in URL embed
-  function getYouTubeEmbedUrl(url) {
+  // Estrae l’ID del video da una URL YouTube
+  function extractYouTubeID(url) {
     try {
       const u = new URL(url);
 
-      // Caso standard: https://www.youtube.com/watch?v=VIDEO_ID
+      // Caso standard
       if (u.searchParams.has("v")) {
-        const id = u.searchParams.get("v");
-        return `https://www.youtube.com/embed/${id}`;
+        return u.searchParams.get("v");
       }
 
-      // Caso Shorts: https://www.youtube.com/shorts/VIDEO_ID?...
+      // Caso Shorts
       if (u.pathname.startsWith("/shorts/")) {
-        const parts = u.pathname.split("/shorts/");
-        if (parts.length > 1) {
-          const idWithParams = parts[1];
-          const id = idWithParams.split("?")[0];
-          return `https://www.youtube.com/embed/${id}`;
-        }
+        return u.pathname.split("/shorts/")[1].split("?")[0];
       }
 
-      // Fallback: uso direttamente la URL, potrebbe non incorporarsi perfettamente
-      return url;
+      return null;
     } catch (e) {
-      // Se la URL è malformata, ritorno così com'è
-      return url;
+      return null;
     }
+  }
+
+  // Crea URL embed con autoplay + loop + mute
+  function getYouTubeEmbedUrl(url) {
+    const videoId = extractYouTubeID(url);
+    if (!videoId) return url;
+
+    return `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}`;
   }
 
   fetch(JSON_PATH)
     .then((response) => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
       return response.json();
     })
     .then((data) => {
-      const entries = Object.entries(data); // [ [ "14,2", "https://..." ], ... ]
+      const entries = Object.entries(data);
 
       if (!entries.length) {
         container.innerHTML = `<p class="text-center">No videos available.</p>`;
@@ -63,9 +61,10 @@ document.addEventListener("DOMContentLoaded", () => {
                   src="${embedUrl}"
                   title="Aging video ${inventoryNumber}"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                  loading="lazy">
-                </iframe>
+                  allow="autoplay"
+                  loading="lazy"
+                  mute
+                ></iframe>
               </div>
               <div class="card-body text-center">
                 <p class="card-text mb-1">Inventory: ${inventoryNumber}</p>
