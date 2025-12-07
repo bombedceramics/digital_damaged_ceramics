@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Chemical Analyses</title>
+  <title>Virtual Exhibition</title>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet" />
-  <!-- Site CSS -->
+
+  <!-- Other CSS -->
+  <link rel="stylesheet" href="style_global.css" />
   <link rel="stylesheet" href="navbar_footer.css" />
+
   <!-- Icons -->
   <link rel="icon" href="assets/icons/website_icon.ico" type="image/x-icon" />
-  <link rel="icon" href="assets/icons/website_icon.png" sizes="32x32" type="image/png" />
-  <link rel="apple-touch-icon" href="assets/icons/website_icon-180.png" sizes="180x180" />
 </head>
+
 <body>
+
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #659287;">
     <div class="container">
@@ -41,19 +41,17 @@
             </ul>
           </li>
 
-          <!-- NEW: More dropdown -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button"
-               data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               More
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="moreDropdown">
               <li><a class="dropdown-item" href="sparql.html">SPARQL</a></li>
               <li><a class="dropdown-item" href="3d.html">3D</a></li>
               <li><a class="dropdown-item" href="dataset.html">Dataset</a></li>
-              <li><a class="dropdown-item active" href="chem.html">Chemical Analyses</a></li>
+              <li><a class="dropdown-item" href="chem.html">Chemical Analyses</a></li>
               <li><a class="dropdown-item" href="video.html">Aging Videos</a></li>
-              <li><a class="dropdown-item" href="virtual_exhibition.html">Virtual Exhibition</a></li>
+              <li><a class="dropdown-item active" href="virtual_exhibition.html">Virtual Exhibition</a></li>
             </ul>
           </li>
 
@@ -65,23 +63,32 @@
 
   <!-- Main -->
   <main class="container py-5">
-    <h1 class="text-center mb-4">Chemical Analyses</h1>
-    <!-- Neutral mount point populated by chem.js -->
-    <div id="app"></div>
+    <h1 class="text-center mb-4">Virtual Exhibition</h1>
+
+    <p class="mb-4">
+      This page hosts the <b>interactive virtual exhibition</b> of the Digital Damaged Ceramics project.
+      You can explore the 3D space, move between the rooms, and get closer to the objects to discover
+      their stories and conservation details.
+    </p>
+
+    <!-- Responsive iframe container -->
+    <div class="ratio ratio-16x9">
+      <iframe
+        src="https://www.artsteps.com/embed/68d7c5081f8089c63f6d76bc/560/315"
+        title="Digital Damaged Ceramics - Virtual Exhibition"
+        frameborder="0"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
+    </div>
   </main>
 
   <!-- Footer -->
-  <footer class="py-3">
-    <div class="container text-center">
-      <p class="mb-0">&copy; 2025 Digital Damaged Ceramics Project. All rights reserved.</p>
-    </div>
+  <footer class="py-3 text-center">
+    <p class="mb-0">&copy; 2025 Digital Damaged Ceramics Project</p>
   </footer>
 
-  <!-- Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- App script (builds UI into #app and fetches data) -->
-  <script src="chem.js" defer></script>
 </body>
 </html>
